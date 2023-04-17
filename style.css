@@ -1,0 +1,88 @@
+h1, .h1, h2, .h2, h3, .h3 {
+    margin-top: 10px;
+}
+
+h2 {
+  font-size: 36px ;
+  padding: .5em 0 .2em 0;
+  color: #2441a0 !important;
+  text-shadow: 1px 1px 0px #fff;
+}
+
+
+pre {
+    border: 0px solid #cccccc;
+    border-radius: 0px;
+ }
+
+
+/* ---------- Links ----------------- */
+.book .book-body .page-wrapper .page-inner section.normal a {
+  color: #e0017b;
+}
+
+.book .book-body .page-wrapper .page-inner section.normal a:hover {
+color: #e0017b; /* darker color when hovering */
+text-decoration: none;
+}
+
+
+/*--- LOGO ---*/
+
+
+.toc-logo {
+  padding-left: 15px !important;
+  padding-right: 15px !important;
+}
+
+.toc-logo img {
+  max-width: 100%;
+  margin-bottom: 1px;
+}
+
+.summary > li:first-child {
+  height: auto !important;
+}
+
+.book .book-summary {
+  background: white;
+  border-right: none;
+}
+
+#TOC {
+  top: 40%;
+  position: fixed;
+  width: 210px;
+}
+.tocify {
+  border: none;
+  color: grey;
+  border-radius: 0px;
+}
+
+.tocify-extend-page {
+  display: none;
+}
+
+
+.book .book-summary ul.summary li.active>a {
+  color: #e0017b;
+}
+
+.book .book-summary ul.summary li a:hover {
+  background-color: #ffffff;
+  color: #e0017b;
+}
+
+
+
+/* ---------- Button ----------------- */
+
+
+.Rchunk {
+  background-color: #E8E8E8 !important;
+}
+
+.Rout {
+  background-color: #F8F8F8 !important;
+}
