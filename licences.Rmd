@@ -1,0 +1,92 @@
+---
+title: "Licences"
+output: html_document
+date: "`r Sys.Date()`"
+---
+
+## Types of software licences
+Software licenses are legal agreements that determine how a software application can be used by individuals or organizations. There are various types of licenses that software developers use to protect their intellectual property and control the distribution and usage of their software. Some of the common types of software licenses include:
+
+    Proprietary License: A proprietary license is a restrictive license that allows the software to be used only as per the terms and conditions specified by the software developer. This type of license often limits the number of users, devices, or installations, and prohibits modifications or redistribution of the software without explicit permission from the developer. Proprietary licenses are often used by commercial software vendors who sell their software for a fee and retain full control over its usage.
+
+    Open Source License: An open source license is a type of license that allows users to access, use, modify, and distribute the software freely. The key characteristic of open source software is that the source code, or the human-readable version of the software, is available for anyone to view and modify. Examples of open source licenses include the GNU General Public License (GPL), the MIT License, and the Apache License. Open source licenses promote collaboration, transparency, and community-driven development.
+
+    Freeware: Freeware is a type of license that allows users to download, install, and use the software for free without any monetary cost. However, freeware licenses may impose certain restrictions on the usage, such as prohibiting commercial use or distribution without permission from the developer. Freeware is often used for consumer-oriented software applications, such as antivirus software, media players, and web browsers.
+
+    Shareware: Shareware is a type of license that allows users to try the software for free for a limited period, typically 30 days, before requiring them to purchase a license to continue using the software. Shareware licenses usually allow users to install and use the software on multiple devices, but restrict certain advanced features or functionalities until a license is purchased. Shareware is commonly used for software applications that target individual users, such as productivity tools, games, and multimedia software.
+
+    Subscription License: A subscription license is a type of license that grants users access to the software for a specified period, typically monthly or annually, in exchange for a recurring fee. Subscription licenses often include regular updates, maintenance, and support from the software developer during the subscription period. Subscription licenses are commonly used for cloud-based software applications, such as software-as-a-service (SaaS) products, where users access the software over the internet rather than installing it locally on their devices.
+
+In conclusion, software licenses play a crucial role in defining how software can be used, modified, and distributed. Proprietary licenses offer strict control and limitations, open source licenses promote collaboration and transparency, freeware allows free usage but may impose certain restrictions, shareware allows trial usage with purchase requirement, and subscription licenses provide access for a specified period in exchange for recurring fees. It's important for users to understand the terms and conditions of software licenses before using or distributing software to ensure compliance with legal requirements and respect for intellectual property rights.
+
+## Creative Commons Flavours
+Creative Commons (CC) licenses are a type of open source license that provide a standardized and flexible way for content creators to share their work with others while retaining certain rights. There are several flavors of Creative Commons licenses, each with its own set of permissions and restrictions.
+
+The most permissive CC license is the CC0 (CC Zero) license, which allows content to be used, modified, and distributed without any restrictions. This means that the content can be used for any purpose, including commercial use, without requiring attribution to the original creator.
+
+The Attribution (BY) license requires that the original creator be credited when the content is used, modified, or distributed. This license allows for maximum flexibility in using the content while still acknowledging the original creator's contribution.
+
+The ShareAlike (SA) license requires that any modifications or derivatives of the content be shared under the same license. This means that if someone modifies the content, they must also release their modifications under the same Creative Commons license. This license promotes a collaborative approach and ensures that derivative works remain open source.
+
+The NonCommercial (NC) license restricts the use of the content for commercial purposes. This means that the content can be used, modified, and distributed for non-commercial purposes only, such as for personal or educational use, but not for commercial gain.
+
+Finally, the NoDerivatives (ND) license prohibits any modifications or derivatives of the content. This means that the content must be used and distributed without any modifications, and derivative works cannot be created from it.
+
+Creative Commons licenses provide a flexible and standardized framework for content creators to share their work with others while retaining certain rights. These licenses allow for a range of permissions and restrictions, from permissive licenses that allow for maximum freedom of use to more restrictive licenses that protect certain rights. Understanding the different flavors of Creative Commons licenses is important for both content creators and users to ensure compliance with the terms and conditions of the licenses and promote open source collaboration in the creative community.
+
+```
+## Assignment 1
+
+Please go over this [Github documentation](https://docs.github.com/en/communities/setting-up-your-project-for-healthy-contributions/adding-a-license-to-a-repository)
+
+
+Add an appropriate licence to a new Github repo.
+```
+
+## Licence in RStudio Project / R package
+When working in R, we can collect our R code easily in the most suitable vehicle for R code to travel in: an R package. It sounds complicated, but creating an R package from your existing (or new) code is actually quite easy. We will see how this goed in more detail in chapter `r-package`. Relevant to the topic at hand is how to add a licence to your RStudio Project. There is two steps:
+
+ 1. Initate an R-package from your exiting RStudio Project
+ 2. Add a LICENCE file to this R-package
+ 
+The code below show you how to do this.
+ 
+Execute this code in a new and empty Github repo. Clone the repo to RStudio from Github, as shown earlier. 
+ 
+### Install and Load the 'usethis' Package
+In your RStudio console, install the 'usethis' package if you haven't already done so using the following commands:
+
+```{r}
+install.packages("usethis")
+```
+
+Then, load the package into your R session using the following command:
+```{r}
+library(usethis)
+```
+
+### Initiate the Package
+Next, use the create_package() function from the 'usethis' package to initiate the package structure in your project directory. This function sets up the necessary files and folders for a standard R package. You can customize the package details by passing arguments to the function. Here's an example:
+
+```{r}
+create_package(path = ".")
+```
+
+This creates an R package in the current directory (which should be your project directory), initializes a git repository, opens the package in RStudio, and generates a .gitignore file.
+ 
+### Add a licence
+To add a licence run one of the following, or choose another build-in licence from usethis.
+```{r, eval=FALSE}
+usethis::use_agpl3_license()
+usethis::use_apache_license()
+usethis::use_cc0_license()
+usethis::use_ccby_license()
+```
+
+```
+## Assignment 2
+If you have not already done so: execute the steps above in an empty new repo, cloned to RStudio. You should end up with an appropriate empty R-package, that includes at least a licence. 
+
+Push the changes to your Github repo, to sync your work
+```
+
