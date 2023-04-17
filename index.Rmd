@@ -1,0 +1,62 @@
+---
+title: "VHP4Safety short intro github"
+author: "Alyanne de Haan, PhD,  Marc Teunis, PhD"
+site: bookdown::bookdown_site
+output: Gmisc::docx_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+
+```
+
+# Workshop overview
+
+## Why you want to complete this workshop
+
+In this workshop we will focus on the I and R part of FAIR. 
+
+Research projects are chaotic and we all know how hard it can be to keep track of manuscipt versions, changes to analyses, which figure was generated from which file, etc.. In particular when multiple people are working on the same project. Version control systems can help tremendously in keeping track of who changed what, when, and -if used properly- why.
+
+
+The most used version control system is Git. With Git and Github (or for example Gitlab), users can create and share repositories (folders), which contain the code and related files for a project, such as (links to) data, manuscripts, and metadata. 
+
+Git is popular because of several reasons:
+
+**Distributed architecture**: This means that every which means that each participant in a project has a complete copy of the project repository on their own machine. This makes it much easier to work offline and collaborate with others, as well as making it easier to recover from data loss.
+
+**Speed**: Git is designed to be fast, even with large repositories. It uses efficient algorithms to quickly calculate changes, and it caches frequently accessed data.
+
+Flexibility: Git is very flexible and can be used for a wide variety of projects, from small personal projects to large enterprise-level software development.
+
+Open source: Git is free to use and modify. 
+
+Integration: Git integrates well with other tools and services, such as GitHub, GitLab, and Bitbucket, which are popular hosting services for Git repositories. 
+
+
+
+
+
+## Learning objectives
+
+After this workshop you:
+
+ -
+ 
+## This reader
+We build this reader both as a guide to the workshop, and for future reference. We will use some the exercises in the workshop, most of the text is there to make sure you can still use this material in a couple of months.
+
+## Contents 
+
+This workshop is devided in 2 parts: 
+
+- 
+- 
+
+## Schedule 
+
+## TLDR
+
+I you have absolutely no time other than reading this message, please try to do the following:
+
+ - 
