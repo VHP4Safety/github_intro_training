@@ -17,7 +17,7 @@ For deploying a test-deriven software development strategy (or in short: Unit Te
 
 Suppose we have a simple function called `addition()` that takes two arguments and returns their sum. We want to write a test for this function to ensure that it behaves correctly. Here's how we can do that using the 'testthat' package:
 
-```{r}
+```{r, eval=FALSE}
 # Load the testthat package
 library(testthat)
 
@@ -43,7 +43,7 @@ In this example, we use the `test_that()` function from the `{testthat}` package
 
 Normally, you would store these tests in specific folder that runs the tests upon 'build-time'. An easy way to setup the required infrastructure in your R-package is by using again the `{usethis}` package.
 
-```{r}
+```{r, eval=FALSE}
 usethis::use_test("test_name") 
 ```
 The test-code above would be written in the .R file, created by this call.

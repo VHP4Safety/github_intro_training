@@ -52,7 +52,7 @@ Execute this code in a new and empty Github repo. Clone the repo to RStudio from
 ### Install and Load the 'usethis' Package
 In your RStudio console, install the 'usethis' package if you haven't already done so using the following commands:
 
-```{r}
+```{r, eval=FALSE}
 install.packages("usethis")
 ```
 
@@ -64,7 +64,7 @@ library(usethis)
 ### Initiate the Package
 Next, use the create_package() function from the 'usethis' package to initiate the package structure in your project directory. This function sets up the necessary files and folders for a standard R package. You can customize the package details by passing arguments to the function. Here's an example:
 
-```{r}
+```{r, eval=FALSE}
 create_package(path = ".")
 ```
 
