@@ -1,8 +1,4 @@
----
-title: "Licences"
-output: html_document
-date: "`r Sys.Date()`"
----
+# Licences and getting started with building R-packages
 
 ## Types of software licences
 Software licenses are legal agreements that determine how a software application can be used by individuals or organizations. There are various types of licenses that software developers use to protect their intellectual property and control the distribution and usage of their software. Some of the common types of software licenses include:
@@ -22,15 +18,15 @@ In conclusion, software licenses play a crucial role in defining how software ca
 ## Creative Commons Flavours
 Creative Commons (CC) licenses are a type of open source license that provide a standardized and flexible way for content creators to share their work with others while retaining certain rights. There are several flavors of Creative Commons licenses, each with its own set of permissions and restrictions.
 
-The most permissive CC license is the CC0 (CC Zero) license, which allows content to be used, modified, and distributed without any restrictions. This means that the content can be used for any purpose, including commercial use, without requiring attribution to the original creator.
+The most permissive CC license is the **CC0 (CC Zero) license**, which allows content to be used, modified, and distributed without any restrictions. This means that the content can be used for any purpose, including commercial use, without requiring attribution to the original creator.
 
-The Attribution (BY) license requires that the original creator be credited when the content is used, modified, or distributed. This license allows for maximum flexibility in using the content while still acknowledging the original creator's contribution.
+The **Attribution (BY)** license requires that the original creator be credited when the content is used, modified, or distributed. This license allows for maximum flexibility in using the content while still acknowledging the original creator's contribution.
 
-The ShareAlike (SA) license requires that any modifications or derivatives of the content be shared under the same license. This means that if someone modifies the content, they must also release their modifications under the same Creative Commons license. This license promotes a collaborative approach and ensures that derivative works remain open source.
+The **ShareAlike (SA)** license requires that any modifications or derivatives of the content be shared under the same license. This means that if someone modifies the content, they must also release their modifications under the same Creative Commons license. This license promotes a collaborative approach and ensures that derivative works remain open source.
 
-The NonCommercial (NC) license restricts the use of the content for commercial purposes. This means that the content can be used, modified, and distributed for non-commercial purposes only, such as for personal or educational use, but not for commercial gain.
+The **NonCommercial (NC)** license restricts the use of the content for commercial purposes. This means that the content can be used, modified, and distributed for non-commercial purposes only, such as for personal or educational use, but not for commercial gain.
 
-Finally, the NoDerivatives (ND) license prohibits any modifications or derivatives of the content. This means that the content must be used and distributed without any modifications, and derivative works cannot be created from it.
+Finally, the **NoDerivatives (ND)** license prohibits any modifications or derivatives of the content. This means that the content must be used and distributed without any modifications, and derivative works cannot be created from it.
 
 Creative Commons licenses provide a flexible and standardized framework for content creators to share their work with others while retaining certain rights. These licenses allow for a range of permissions and restrictions, from permissive licenses that allow for maximum freedom of use to more restrictive licenses that protect certain rights. Understanding the different flavors of Creative Commons licenses is important for both content creators and users to ensure compliance with the terms and conditions of the licenses and promote open source collaboration in the creative community.
 
@@ -40,7 +36,7 @@ Creative Commons licenses provide a flexible and standardized framework for cont
 Please go over this [Github documentation](https://docs.github.com/en/communities/setting-up-your-project-for-healthy-contributions/adding-a-license-to-a-repository)
 
 
-Add an appropriate licence to a new Github repo.
+Add an appropriate licence to a new Github repo, according this workflow.
 ```
 
 ## Licence in RStudio Project / R package

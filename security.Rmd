@@ -1,8 +1,4 @@
----
-title: "Git Security"
-output: html_document
-date: "`r Sys.Date()`"
----
+# Git security and privacy
 
 ## A Github token
 GitHub tokens are access credentials that serve as a secure way to authenticate and interact with the GitHub API. The purpose of GitHub tokens is to provide users with a secure and efficient means to programmatically access and manipulate GitHub repositories, gists, and other resources without exposing sensitive information such as passwords. These tokens are widely used in software development workflows, including automation scripts, continuous integration/continuous deployment (CI/CD) pipelines, and other applications that require interacting with GitHub programmatically.
