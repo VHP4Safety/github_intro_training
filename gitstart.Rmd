@@ -76,7 +76,17 @@ It is recommended to push your commits at least once per day, to keep the copy o
 If you work together with other people, they may be changing the github repository as well. In this case, you want to update your Git repository on your computer based on the changes on GitHub. This update process is the reverse of pushing, hence it is called **pulling** (you 'pull' the changes from GitHub to your computer).
 
 
-## 
+## Github and data 
+
+GitHub is not designed for data governance, data quality control, or actually, data at all. However, it *is* designed to organise the workflows around data, specifically data analysis, documentation and text writing (e.g. papers. Or online readers for workshops). It is often used in teams or organizations that work with data-related projects to ensure aspects underlying data flows and can be important in data governance because:
+
+Version control: As mentioned above. This allows for transparency and reproducibility in data analysis workflows.
+
+Collaboration, documentation, meta data: GitHub's workflow helps to ensure that documentation is a central part of a project's process by lowering the threshold for providing meta data and working reproducibly. Also, using github offers multiple stakeholders the option to review, or keep track of, how data is being used in an organisation.
+
+Security and access control: GitHub offers a range of security features, such as two-factor authentication, encryption, and access control, which can help to ensure that data-related projects and workflows are secure and only accessible to authorized individuals. At least a lot more secure than e-mailing google drive links.
+
+Openness and transparency: As you share all your changes with your coworkers, it promotes accountability and responsible data practices.
 
 
 
