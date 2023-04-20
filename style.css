@@ -76,7 +76,7 @@ text-decoration: none;
 
 
 
-/* ---------- Button ----------------- */
+/* ---------- kleuren ----------------- */
 
 
 .Rchunk {
@@ -85,4 +85,9 @@ text-decoration: none;
 
 .Rout {
   background-color: #F8F8F8 !important;
+}
+
+
+.blauw {
+  background-color: #f3fbfe;
 }
