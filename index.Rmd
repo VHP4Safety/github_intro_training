@@ -2,7 +2,23 @@
 title: "VHP4Safety short intro github"
 author: "Alyanne de Haan, PhD,  Marc Teunis, PhD"
 site: bookdown::bookdown_site
-output: Gmisc::docx_document
+output: 
+    bookdown::gitbook:
+        css: style.css
+        number_sections: false
+        anchor_sections: false
+        split_by: chapter
+        config:
+            sharing:
+                 github: yes
+                 facebook: no
+                 twitter: no
+                 all: no
+            toc:
+                collapse: section
+                scroll_highlight: yes
+                before: <li class="toc-logo"><a href="./"><img style="float:left;" src="images/voorbeeldlogo2.png"></a> <h4 class=".paddingtitel ">github intro </h2></li>
+---
 ---
 
 ```{r setup, include=FALSE}
