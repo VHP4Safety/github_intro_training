@@ -30,7 +30,7 @@ knitr::opts_chunk$set(echo = TRUE)
 
 ## Learning objectives
 
-After this workshop you:
+<mark>After this workshop you:</mark>
 
 
 
@@ -78,7 +78,7 @@ This workshop is divided in 2 parts:
 
 ## Schedule 
 
-10:00
+<mark>10:00</mark>
 
 
 lunch
