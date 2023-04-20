@@ -71,12 +71,24 @@ We build this reader both as a guide to the workshop, and for future reference. 
 
 ## Contents 
 
-This workshop is devided in 2 parts: 
+This workshop is divided in 2 parts: 
 
 - before the lunch, the workshop will focus on getting some hands on experience with github and version control, setting up projects and collaboration.
 - after lunch, we will focus on different tools and option and when to use them, releases, licenses, security issues and connections to data.
 
 ## Schedule 
+
+10:00
+
+
+lunch
+
+
+13:00
+
+
+15:00: guided tour of the RIVM
+
 
 ## TLDR
 
