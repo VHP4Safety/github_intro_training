@@ -1,0 +1,82 @@
+# Starting with github
+
+
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = F)
+```
+
+## Prerequisites
+
+Before you continue with this lesson, make sure you have done the following:
+
+- You have [created a GitHub account](https://github.com/join?ref_cta=Sign+up&ref_loc=header+logged+out&ref_page=%2F&source=header-home). 
+
+And if you use programming languages:
+- you are comfortable working with R and Rstudio
+- You have [installed Git](https://git-scm.com/downloads) on your computer.
+
+## Github repo's: a real life example (10 min) {.blauw}
+
+*(Thank you Coderefinery for this exercise, lisenced [CC BY 4.0.](https://creativecommons.org/licenses/by/4.0/))*
+
+On github, you can create and share repositories (folders), which contain the (analyses) code and related files for a project. Git will keep track of alle changes to these files. 
+
+Before we create a new repository from scratch and learn how to record changes
+and create and merge branches, let us explore an **existing Git repository** on
+GitHub.  The goal here is not to teach GitHub yet (we will explain some of the
+concepts later), but rather to get a glimpse of the wider picture.
+
+As an example we can explore a famous Git repository which was used
+to produce the Event Horizon Telescope images: [https://github.com/achael/eht-imaging](https://github.com/achael/eht-imaging).
+
+- History
+  - Explore the [repository](https://github.com/achael/eht-imaging).
+  - Explore the [history](https://github.com/achael/eht-imaging/commits/main).
+  - Note that there are [branches](https://github.com/achael/eht-imaging/network).
+- Collaboration
+  - You can refer to [code portions](https://github.com/achael/eht-imaging/blob/31361ab62c5718b08612fc75e409795f004f5071/ehtim/imaging/starwarps.py#L66-L75)
+    (so much simpler to send a link rather than describe which file to open and where to scroll to).
+  - Browse the [forks](https://github.com/achael/eht-imaging/network/members).
+  - See [contributors](https://github.com/achael/eht-imaging/graphs/contributors).
+- Releases
+  - Explore the [release history](https://github.com/achael/eht-imaging/releases).
+- Reproducibility
+  - Discuss the **enormous value of the annotation feature**: [example file](https://github.com/achael/eht-imaging/blame/main/ehtim/imaging/starwarps.py).
+
+
+
+## Setting up a github workflow {.blauw}
+
+We will do this live during the workshop. In case you forget the procedure, <mark> see this link. </mark>
+
+
+## Github main workflow: For future reference
+
+In short, the core of a github workflow consists of :
+
+### Give each project its own Git repository
+
+A **Git repository** is a folder in which the version control takes place. That means that all the changes of files that are located in that folder (and its subfolders) are tracked. It is best practice to initiate the Git repository on GitHub and then download it to your computer, so there is a working version of your project in the cloud at any point. Github then acts as a backup system as well.
+
+Just as you can have multiple folders on your computer, you can also have multiple Git repositories on your computer (and on GitHub). It is recommended to create a separate Git repository for each project you are doing. 
+
+### Commit: Saving a new version of your files 
+
+Git does not automatically track the file changes. If you do not tell Git to save the version history, it will not do anything! Saving a new version of your files in the Git repository's file history is called a **commit**. It is recommended to regularly commit your changes, preferably several times a day, as these commits also form the "tracked changes".
+
+### Updating the GitHub repository (push)
+
+When you commit your changes, the Git repository on your computer will be updated. However, the online copy of your Git repository on GitHub does not, unless you tell Git to do so. This is called **pushing** (you 'push' the changes from your computer to GitHub).
+
+It is recommended to push your commits at least once per day, to keep the copy of your Git repository on GitHub up to date.
+
+### Updating your local Git repository based on changes in GitHub (pull)
+
+If you work together with other people, they may be changing the github repository as well. In this case, you want to update your Git repository on your computer based on the changes on GitHub. This update process is the reverse of pushing, hence it is called **pulling** (you 'pull' the changes from GitHub to your computer).
+
+
+## 
+
+
+
