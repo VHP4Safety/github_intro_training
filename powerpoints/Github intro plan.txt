@@ -1,0 +1,21 @@
+1e  uur
+
+Zenden: intro git(hub), zie https://www.youtube.com/watch?v=PhyUy7z4S-M
+
+Meedoen: Github repo samen maken
+
+meedoen: maak een file met een recept. Commit changes. Push. 
+
+Exercise: andere repo verkennen (bijv https://coderefinery.github.io/git-
+intro/motivation/#a-real-life-example)
+
+Voordoen: waarom zou je: voorbeeldje een van onze readers of onderzoeksprojecten.
+
+voordoen: hoe ziet dat er uit in Rstudio
+hoe ziet dat er uit in python notebook
+
+
+
+2e uur
+
+

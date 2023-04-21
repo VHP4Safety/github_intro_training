@@ -1,0 +1,16 @@
+bookdown::gitbook:
+  number_sections: false
+  toc_depth: 2
+  css: style.css
+  anchor_sections: false
+  split_by: chapter
+  config:
+    sharing:
+      github: yes
+      facebook: no
+      twitter: no
+      all: no
+    toc:
+      collapse: section
+      scroll_highlight: yes
+      before: <h4 class=".paddingtitel "> github introduction </h4>

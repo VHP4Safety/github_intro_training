@@ -2,12 +2,7 @@ h1, .h1, h2, .h2, h3, .h3 {
     margin-top: 10px;
 }
 
-h2 {
-  font-size: 36px ;
-  padding: .5em 0 .2em 0;
-  color: #2441a0 !important;
-  text-shadow: 1px 1px 0px #fff;
-}
+
 
 
 pre {
@@ -18,11 +13,11 @@ pre {
 
 /* ---------- Links ----------------- */
 .book .book-body .page-wrapper .page-inner section.normal a {
-  color: #e0017b;
+  color: #3f88ca;
 }
 
 .book .book-body .page-wrapper .page-inner section.normal a:hover {
-color: #e0017b; /* darker color when hovering */
+color: #1f5386; /* darker color when hovering */
 text-decoration: none;
 }
 
@@ -41,7 +36,7 @@ text-decoration: none;
 }
 
 .summary > li:first-child {
-  height: auto !important;
+  height: auto !important; 
 }
 
 .book .book-summary {
@@ -59,22 +54,21 @@ text-decoration: none;
   color: grey;
   border-radius: 0px;
 }
-
+.list-group-item.active {
+    color: #69b3a2;
+    background-color: white;
+    border-left: solid;
+    border-color: #69b3a2;
+}
+.list-group-item:hover {
+    color: #69b3a2;
+    background-color: white;
+    border-left: solid;
+    border-color: #69b3a2;
+}
 .tocify-extend-page {
   display: none;
 }
-
-
-.book .book-summary ul.summary li.active>a {
-  color: #e0017b;
-}
-
-.book .book-summary ul.summary li a:hover {
-  background-color: #ffffff;
-  color: #e0017b;
-}
-
-
 
 /* ---------- Button ----------------- */
 
@@ -85,4 +79,71 @@ text-decoration: none;
 
 .Rout {
   background-color: #F8F8F8 !important;
+}
+
+ /* -----------Questions and other blocks, thank you rstudio4edu ---------*/
+
+div.rstudio-tip, div.tip, div.question{
+  border: 4px #aed6d963;
+  border-style: dashed solid;
+  padding: 1em;
+  margin: 1em 0;
+  padding-left: 100px;
+  background-size: 70px;
+  background-repeat: no-repeat;
+  background-position: 15px center;
+  min-height: 120px;
+  color: #3f88ca;
+  background-color: #fcfcfc;
+}
+
+
+div.rstudio-tip {
+  background-image: url("images/rstudiologo.png");
+}
+
+div.tip {
+  background-image: url("images/Light_bulb_icon_red.svg");
+}
+
+div.question {
+  background-image: url("images/Question-mark-grey.jpg");
+}
+
+
+ /* ----------- automatic question numbering ---------*/
+h1 { 
+  counter-reset: h5counter;
+  text-align: center;
+  
+}
+h5:after {
+    counter-increment: h5counter;
+    content: "." counter(h5counter);
+}
+
+ /* ----------- antwoordboxen opmaak ---------*/
+details {
+
+  border: 4px #aed6d963;
+  border-style: solid;
+}
+
+ /* ----------- dagopdrachten opmaak ---------*/
+div.dagopdracht{
+  border: 6px #B22222;
+  border-style: dashed solid;
+  padding: 1em;
+  margin: 1em 0;
+  padding-left: 100px;
+  background-size: 70px;
+  background-repeat: no-repeat;
+  background-position: 15px center;
+  min-height: 120px;
+  color: #3f88ca;
+  background-color: #fcfcfc;
+}
+
+.blauw {
+  background-color: #f3fbfe;
 }
