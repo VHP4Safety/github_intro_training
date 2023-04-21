@@ -58,8 +58,6 @@ export EXAMPLE_KEY="your_key_value"
 In the example above, we use the export command to set the value of the key "EXAMPLE_KEY" as a system variable, making it accessible to other scripts or processes running on the same system. This way, the sensitive key is not hard-coded in the script, but rather managed as a system variable, providing a more secure way to store and access sensitive information.
 
 In conclusion, storing sensitive information such as keys in code can pose security risks, and it's important to follow best practices for managing keys securely. Using environment variables, external configuration files, or system variables can help separate sensitive information from the code and provide a more secure approach to managing keys. By implementing these security measures, you can protect sensitive information and reduce the risk of accidental exposure or unauthorized access, ensuring the confidentiality and integrity of your applications or workflows.
-Marc Teunis
-Give an exmaple on how to use the function `rstudioapi::askForSecret(`)
 
 ## Interactive asking for passwords
 The `{rstudioapi}` package provides the `askForSecret()` function, which allows you to securely prompt the user for sensitive information, such as passwords or API keys, in RStudio. Here's an example of how you can use the `askForSecret()` function in RMarkdown syntax:
