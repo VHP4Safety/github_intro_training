@@ -1,0 +1,26 @@
+# Conventions
+
+This reader has a number of conventions. Below, we indicate the most important ones.
+
+## Code blocks
+
+This is Bash code, that can be run in a terminal or from a Bash script (`.sh`).
+```
+# Bash
+ls -a
+```
+
+This is R code, and its output under the code.
+```{r}
+x <- c(1:10)
+x
+```
+
+## Block quotes
+We enclose code, file_names, sytem variables, commands or other code associated items with `block quotes`
+
+## R Packages
+When referring to R packages we use `{package_name}`
+
+## Assignments
+These can be recognized with a specific style, where the assinment is enclosed in a text-box. We created this mark-up with a CSS style sheet. See file `style.css` for details.
