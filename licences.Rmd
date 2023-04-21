@@ -36,8 +36,7 @@ Creative Commons licenses provide a flexible and standardized framework for cont
 Please go over this [Github documentation](https://docs.github.com/en/communities/setting-up-your-project-for-healthy-contributions/adding-a-license-to-a-repository)
 
 
-Add an appropriate licence to a new Github repo, according this workflow.
-```
+Add an appropriate licence to a new Github repo, according this workflow:
 
 ## Licence in RStudio Project / R package
 When working in R, we can collect our R code easily in the most suitable vehicle for R code to travel in: an R package. It sounds complicated, but creating an R package from your existing (or new) code is actually quite easy. We will see how this goed in more detail in chapter `r-package`. Relevant to the topic at hand is how to add a licence to your RStudio Project. There is two steps:
@@ -77,6 +76,8 @@ usethis::use_agpl3_license()
 usethis::use_apache_license()
 usethis::use_cc0_license()
 usethis::use_ccby_license()
+```
+
 ```
 
 ```
