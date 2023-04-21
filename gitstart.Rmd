@@ -1,7 +1,5 @@
 # Starting with github
 
-
-
 ```{r, include=FALSE}
 knitr::opts_chunk$set(echo = F)
 ```
