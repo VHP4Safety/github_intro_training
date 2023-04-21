@@ -1,0 +1,162 @@
+# Starting with github
+
+```{r, include=FALSE}
+knitr::opts_chunk$set(echo = F)
+```
+
+## Prerequisites
+
+Before you continue with this lesson, make sure you have done the following:
+
+- You have [created a GitHub account](https://github.com/join?ref_cta=Sign+up&ref_loc=header+logged+out&ref_page=%2F&source=header-home). 
+
+And if you use programming languages:
+- you are comfortable working with R and Rstudio
+- You have [installed Git](https://git-scm.com/downloads) on your computer.
+
+## **EXERCISE: a real life example (10 min)** {.blauw}
+
+*(Thank you Coderefinery for this exercise, lisenced [CC BY 4.0.](https://creativecommons.org/licenses/by/4.0/))*
+
+On github, you can create and share repositories (folders), which contain the (analyses) code and related files for a project. Git will keep track of alle changes to these files. 
+
+Before we create a new repository from scratch and learn how to record changes
+and create and merge branches, let us explore an **existing Git repository** on
+GitHub.  The goal here is not to teach GitHub yet (we will explain some of the
+concepts later), but rather to get a glimpse of the wider picture.
+
+As an example we can explore a famous Git repository which was used
+to produce the Event Horizon Telescope images: [https://github.com/achael/eht-imaging](https://github.com/achael/eht-imaging).
+
+- History
+  - Explore the [repository](https://github.com/achael/eht-imaging).
+  - Explore the [history](https://github.com/achael/eht-imaging/commits/main).
+  - Note that there are [branches](https://github.com/achael/eht-imaging/network).
+- Collaboration
+  - You can refer to [code portions](https://github.com/achael/eht-imaging/blob/31361ab62c5718b08612fc75e409795f004f5071/ehtim/imaging/starwarps.py#L66-L75)
+    (so much simpler to send a link rather than describe which file to open and where to scroll to).
+  - Browse the [forks](https://github.com/achael/eht-imaging/network/members).
+  - See [contributors](https://github.com/achael/eht-imaging/graphs/contributors).
+- Releases
+  - Explore the [release history](https://github.com/achael/eht-imaging/releases).
+- Reproducibility
+  - Discuss the **enormous value of the annotation feature**: [example file](https://github.com/achael/eht-imaging/blame/main/ehtim/imaging/starwarps.py).
+
+
+
+## Setting up a github workflow {.blauw}
+
+We will do this live during the workshop. In case you forget the procedure, <mark> see this link. </mark>
+
+
+## Github main workflow: For future reference
+
+In short, the core of a github workflow consists of :
+
+### Give each project its own Git repository
+
+A **Git repository** is a folder in which the version control takes place. That means that all the changes of files that are located in that folder (and its subfolders) are tracked. It is best practice to initiate the Git repository on GitHub and then download it to your computer, so there is a working version of your project in the cloud at any point. Github then acts as a backup system as well.
+
+Just as you can have multiple folders on your computer, you can also have multiple Git repositories on your computer (and on GitHub). It is recommended to create a separate Git repository for each project you are doing. 
+
+### Commit: Saving a new version of your files 
+
+Git does not automatically track the file changes. If you do not tell Git to save the version history, it will not do anything! Saving a new version of your files in the Git repository's file history is called a **commit**. It is recommended to regularly commit your changes, preferably several times a day, as these commits also form the "tracked changes".
+
+### Updating the GitHub repository (push)
+
+When you commit your changes, the Git repository on your computer will be updated. However, the online copy of your Git repository on GitHub does not, unless you tell Git to do so. This is called **pushing** (you 'push' the changes from your computer to GitHub).
+
+It is recommended to push your commits at least once per day, to keep the copy of your Git repository on GitHub up to date.
+
+### Updating your local Git repository based on changes in GitHub (pull)
+
+If you work together with other people, they may be changing the github repository as well. In this case, you want to update your Git repository on your computer based on the changes on GitHub. This update process is the reverse of pushing, hence it is called **pulling** (you 'pull' the changes from GitHub to your computer).
+
+
+## Github and data 
+
+GitHub is not designed for data governance, data quality control, or actually, data at all. However, it *is* designed to organise the workflows around data, specifically data analysis, documentation and text writing (e.g. papers. Or online readers for workshops). It is often used in teams or organizations that work with data-related projects to ensure aspects underlying data flows and can be important in data governance because:
+
+**Version control:** As mentioned above. This allows for transparency and reproducibility in data analysis workflows.
+
+**Collaboration, documentation, meta data:** GitHub's workflow helps to ensure that documentation is a central part of a project's process by lowering the threshold for providing meta data and working reproducibly. Also, using github offers multiple stakeholders the option to review, or keep track of, how data is being used in an organisation.
+
+**Security and access control:** GitHub offers a range of security features, such as two-factor authentication, encryption, and access control, which can help to ensure that data-related projects and workflows are secure and only accessible to authorized individuals. At least a lot more secure than e-mailing google drive links or scripts.
+
+**Openness and transparency:** As you share all your changes with your coworkers, it promotes accountability and responsible data practices.
+
+## No really, github and data
+
+So what about the data?
+
+While GitHub does provide some basic data storage capabilities, such as the ability to store small datasets or documentation files, it is generally not recommended to store large datasets or sensitive data on GitHub. Its version control is catered towards code and text, not data. This means that it may be difficult to track changes to datasets over time, and to revert to previous versions of a dataset if necessary.
+Larger datasets will also exceed the storage limits, which can impact performance and functionality.
+
+Also, GitHub is a public platform, and while repositories can be private, most organisations have rules and dedicated data storage solutions in place on where to store data, particularly for sensitive or confidential data.
+
+
+## Thinking in projects
+
+A github repository is centered around the idea of dividing your work in projects (rather than tasks), and storing all files related to a project in one location.
+
+A task-centered folder structure on a researcher's laptop could look somewhat like the way both of your teachers today organised their laptops previously:
+
+```
+old_laptop/wrong_structure
+├── courses
+├── ethical approval documents
+├── failed projects
+├── images
+├── manuscripts
+│   ├── me_et al , 2020_v01 - Copy.docx
+│   ├── me_et al , 2020_v02.docx
+│   └── me_et al about A, 2020_v03_final_final.docx
+├── presentations
+├── project A
+│   ├── Data files 001
+│   ├── Project Documentation
+│   ├── Volunteer responses
+│   ├── analyses
+│   └── revision
+│       ├── new analyses
+│       ├── new figs
+│       └── replies to reviewers
+└── protocols
+```
+
+While a project-centered structure may look like this : (this structure specifically is actually based on [Guerilla analytics](https://guerrilla-analytics.net/) but other options are available. For example, you could take a look at [cookiecutter templates](https://www.cookiecutter.io/templates) if you want a Python-based approach or the [worcs package](https://content.iospress.com/articles/data-science/ds210031) for R.
+
+```
+new_laptop/better_example_structure
+├── courses
+├── project A
+│   ├── analyses
+│   │   ├── code
+│   │   ├── data
+│   │   └── data_raw
+│   │       └── Volunteer responses
+│   ├── documentation
+│   ├── ethical approval
+│   ├── images
+│   ├── manuscript
+│   │   ├── me_et al , 2020.docx
+│   │   ├── version 1
+│   │   └── version 2
+│   ├── methods
+│   │   └── protocols
+│   └── presentations
+├── project B
+└── project C
+```
+
+Now, `project A` and `project B` could easily be github repo's (although data itself is often not stored on github )
+
+The data workflow could then consist of:
+
+ - a github/gitlab repository that version controles everything you do with your data (most importantly, analysis scripts)
+ - a secure location to store raw data and not touch or change it: read-only. 
+ - a data repositorie that stores the to be used data your are analysing and collaborating on. Usually organisations have something in place, for instance Research Drive, dedicated servers or even google drive.
+
+
+

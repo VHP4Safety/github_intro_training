@@ -1,0 +1,97 @@
+---
+title: "VHP4Safety short intro github"
+author: "Alyanne de Haan, PhD,  Marc Teunis, PhD"
+site: bookdown::bookdown_site
+output: 
+    bookdown::gitbook:
+        css: style.css
+        number_sections: false
+        anchor_sections: false
+        split_by: chapter
+        config:
+            sharing:
+                 github: yes
+                 facebook: no
+                 twitter: no
+                 all: no
+            toc:
+                collapse: section
+                scroll_highlight: yes
+                before: <li class="toc-logo"><a href="./"><img style="float:left;" src="images/voorbeeldlogo2.png"></a> <h4 class=".paddingtitel ">github intro </h2></li>
+---
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+
+```
+
+# Workshop overview
+
+## Learning objectives
+
+<mark>After this workshop you:</mark>
+
+
+
+## Git
+
+Research projects are chaotic and we all know how hard it can be to keep track of manuscipt versions, changes to analyses, which figure was generated from which file, etc.. In particular when multiple people are working on the same project. Version control systems can help tremendously in keeping track of who changed what, when, and -if used properly- why.
+
+The most used version control system is Git. Users can create and share repositories (folders), which contain the (analyses) code and related files for a project, such as (links to) data, manuscripts, and metadata. Git will keep track of alle changes to these files, who made them, when, and if provided by this info by a human: why. Like track changes in Word, but for every file in a project.
+
+Git is popular because of several reasons:
+
+**Distributed architecture**: This means that every which means that each participant in a project has a complete copy of the project repository on their own machine. This makes it much easier to work offline and collaborate with others, as well as making it easier to recover from data loss.
+
+**Speed**: Git is designed to be fast, even with large repositories. It uses efficient algorithms to quickly calculate changes, and it caches frequently accessed data.
+
+**Flexibility**: Git is very flexible and can be used for a wide variety of projects, from small personal projects to large enterprise-level software development.
+
+**Open source**: Git is free to use and modify. 
+
+**Integration**: Git integrates well with other tools and services, such as GitHub, GitLab, and Bitbucket, which are popular hosting services for Git repositories. 
+
+
+## Github and Gitlab
+
+Version control is nice, but works best when integrated within the workflow of a project, and thus within the software used to collaborate or develop within a project. Two popular choices are github, with a focus on collaboration, and gitlab, profiling itself as a DevOps platform. Both systems offer you a place to store your git repositories in the cloud, which means you can collaborate on these repositories with others.
+
+Github is the oldest of the two, and the more popular one. And also the one your trainers have more experience in. We will thus focus on github.
+
+## Why not Dropbox or Google Drive?
+
+Because they are storage systems, not version control systems. They store changes, even from multiple people, but do not store meta data on these changes. Git makes it a lot easier to revert to earlier versions of a file or find out when something was changed.
+
+Git also allows branching: creating a parallel copy of a repository in which you can try something (a new analysis for example), which you can merge into the main folder when everything is working. So no-one needs to wait for you to get things working again before they can work on the project.
+
+ 
+## This reader
+We build this reader both as a guide to the workshop, and for future reference. We will use some of the exercises in the workshop, most of the text is there to make sure you can still use this material in a couple of months.
+
+## Contents 
+
+This workshop is divided in 2 parts: 
+
+- before the lunch, the workshop will focus on getting some hands on experience with github and version control, setting up projects and collaboration.
+- after lunch, we will focus on different tools and option and when to use them, releases, licenses, security issues and connections to data.
+
+## Schedule 
+
+<mark>10:00</mark>
+
+
+lunch
+
+
+13:00
+
+
+15:00: guided tour of the RIVM
+
+
+## TLDR
+
+I you have absolutely no time other than reading this message, please try to do the following:
+
+ - 

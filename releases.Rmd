@@ -1,0 +1,67 @@
+# Managing change in a stable way"
+
+Creating a stable release in GitHub involves several steps to ensure that the codebase is reliable, thoroughly tested, and ready for production use. First, it's essential to have a well-organized and maintained Git repository, with a clear branching and versioning strategy. Once the development work for the release is complete and thoroughly reviewed, the next step is to create a release branch or tag, following the established versioning conventions. This ensures that the codebase is in a stable state and ready for deployment.
+
+Before creating the release, it's crucial to thoroughly test the codebase to catch any potential issues. This may include running automated tests, conducting manual testing, and performing quality assurance (QA) checks to ensure the code is free from bugs and meets the intended functionality. Additionally, documentation, including release notes, should be updated to provide clear instructions on how to use and deploy the new release.
+
+Once the codebase has passed all the necessary tests and documentation is up-to-date, the release can be created in GitHub. This typically involves creating a new release using the "Releases" tab in the GitHub repository and specifying the release version, title, and release notes. It's important to ensure that the release is properly tagged and associated with the corresponding commit or branch in the repository.
+
+After creating the release, it's crucial to conduct thorough testing of the release version to ensure that it works as expected in the intended environment. This may involve deploying the release to a staging environment or conducting additional testing in a production-like setup.
+
+Once the release has been thoroughly tested and validated, it can be marked as stable, and the release can be officially communicated to users or customers. This may involve updating release notes, documentation, and other relevant information to inform users about the new stable release.
+
+Creating a stable release in GitHub requires careful planning, thorough testing, and proper documentation. By following established release management best practices, developers can ensure that their code is stable, reliable, and ready for production use, providing a solid foundation for software development projects.
+
+## Writing tests in R
+For deploying a test-deriven software development strategy (or in short: Unit Testing) in R, the `{testthat}` package forms a great place to start. For an extensive documentation, see [here](https://testthat.r-lib.org/). Below we show a short example on how to write a test for a function in R, using this framwork. 
+
+Suppose we have a simple function called `addition()` that takes two arguments and returns their sum. We want to write a test for this function to ensure that it behaves correctly. Here's how we can do that using the 'testthat' package:
+
+```{r, eval=FALSE}
+# Load the testthat package
+library(testthat)
+
+# Define the function to be tested
+addition <- function(a, b) {
+  return(a + b)
+}
+
+# Write a test for the addition() function
+test_that("addition() function works correctly", {
+  # Test case 1
+  expect_equal(addition(2, 3), 5, "Addition of 2 and 3 should be 5.")
+  
+  # Test case 2
+  expect_equal(addition(-4, 8), 4, "Addition of -4 and 8 should be 4.")
+  
+  # Test case 3
+  expect_equal(addition(0, 0), 0, "Addition of 0 and 0 should be 0.")
+})
+```
+
+In this example, we use the `test_that()` function from the `{testthat}` package to define a test that contains multiple test cases. Within each test case, we use the expect_equal() function to compare the output of the addition() function with the expected result. If the expected result matches the actual result, the test passes. If not, the test fails, and an error message is displayed.
+
+Normally, you would store these tests in specific folder that runs the tests upon 'build-time'. An easy way to setup the required infrastructure in your R-package is by using again the `{usethis}` package.
+
+```{r, eval=FALSE}
+usethis::use_test("test_name") 
+```
+The test-code above would be written in the .R file, created by this call.
+
+Running all tests in a package can be done by:
+```{r, eval=FALSE}
+devtools::test()
+```
+
+It's important to write meaningful test cases that cover different scenarios and cases to thoroughly test the function's behavior. By running these tests using the 'testthat' package, we can quickly detect and fix any issues or regressions in our code, ensuring that it behaves correctly and reliably.
+
+## Github actions
+Running tests and other automated workflows can be further automated, using Github actions. Github Actions is an incredibly useful tool for R package development as it allows for automated workflows and continuous integration (CI) processes. With Github Actions, developers can automate various tasks, such as building and testing R packages, checking code quality, and deploying packages to CRAN or other package repositories. This automation helps to catch potential issues early in the development process, ensuring that the package is reliable and robust.
+
+Github Actions also provides a seamless integration with the Git and GitHub workflow, allowing for easy setup and configuration of CI workflows directly in the repository. This makes it convenient for R package developers to incorporate automated testing and other development tasks into their existing workflow.
+
+Another key benefit of Github Actions is its flexibility and customization options. Developers can define custom workflows tailored to their specific needs, and take advantage of a wide range of pre-defined actions from the Github Actions marketplace. This allows for extensive customization and scalability, making it a powerful tool for R package development in projects of all sizes.
+
+Furthermore, Github Actions offers excellent visibility and traceability, allowing developers to easily track the status of their workflows and identify any failures or issues. Detailed logs and reports help in troubleshooting and diagnosing problems, enabling swift resolution and ensuring that the R package remains in a stable and releasable state.
+
+In summary, Github Actions is a valuable tool for R package development, providing automated workflows, continuous integration, customization options, and excellent visibility. It helps in ensuring code quality, catching issues early, and streamlining the development process, making it an indispensable tool for modern R package development workflows.
