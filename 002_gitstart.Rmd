@@ -4,6 +4,8 @@
 knitr::opts_chunk$set(echo = F, class.source="Rchunk", class.output="Rout")
 ```
 
+We will start with a short presentation on version control systems.
+
 ## Prerequisites
 
 Before you continue with this lesson, make sure you have done the following:
@@ -29,7 +31,7 @@ As an example we can explore a famous Git repository which was used
 to produce the Event Horizon Telescope images: [https://github.com/achael/eht-imaging](https://github.com/achael/eht-imaging).
 
 - History
-  - Explore the [repository](https://github.com/achael/eht-imaging).
+  - Explore the [repository](https://github.com/achael/eht-imaging). (see explanation of terminology below)
   - Explore the [history](https://github.com/achael/eht-imaging/commits/main).
   - Note that there are [branches](https://github.com/achael/eht-imaging/network).
 - Collaboration
@@ -40,13 +42,18 @@ to produce the Event Horizon Telescope images: [https://github.com/achael/eht-im
 - Releases
   - Explore the [release history](https://github.com/achael/eht-imaging/releases).
 - Reproducibility
-  - Discuss the **enormous value of the annotation feature**: [example file](https://github.com/achael/eht-imaging/blame/main/ehtim/imaging/starwarps.py).
+  - Discuss the value of the annotation feature: [example file](https://github.com/achael/eht-imaging/blame/main/ehtim/imaging/starwarps.py).
+
+Terminology:
+
+ - **repository** or repo : the version controlled folder. Can be local (on your laptop) or the one on github/gitlab
+ - **branch** : git branches are individual projects within a git repository. A temporary copy of the version controlled folder within the same repo (actually, it is a temporary  set of code changes with a name).
+ - **fork** A fork is a new repository that shares code and visibility settings with the original “upstream” repository. Forks are often used to iterate on ideas or changes before they are proposed back to the upstream repository, such as in open source projects or when a user does not have write access to the upstream repository.([source](https://docs.github.com/en/get-started/quickstart/fork-a-repo))
 
 
+## Setting up a github repo {.blauw}
 
-## Setting up a github workflow {.blauw}
-
-We will do this live during the workshop. In case you forget the procedure, <mark> see this link. </mark>
+Marc will do this live during the workshop and you will -hopefully- click along. In case you forget the procedure, [see this link.](https://docs.github.com/en/get-started/quickstart/create-a-repo)
 
 
 ## Github main workflow: For future reference
