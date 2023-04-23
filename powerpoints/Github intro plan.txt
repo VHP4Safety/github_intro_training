@@ -1,21 +1,34 @@
 1e  uur
 
-Zenden: intro git(hub), zie https://www.youtube.com/watch?v=PhyUy7z4S-M
+10:00 intro rondje
 
-Meedoen: Github repo samen maken
+10:20 Zenden: intro git(hub), zie https://www.youtube.com/watch?v=PhyUy7z4S-M
 
-meedoen: maak een file met een recept. Commit changes. Push. 
+10:30 Meedoen: Github repo samen maken
 
-Exercise: andere repo verkennen (bijv https://coderefinery.github.io/git-
-intro/motivation/#a-real-life-example)
+10:45 meedoen: maak een file met een recept. Commit changes. Push. 
 
-Voordoen: waarom zou je: voorbeeldje een van onze readers of onderzoeksprojecten.
-
-voordoen: hoe ziet dat er uit in Rstudio
-hoe ziet dat er uit in python notebook
+11:00 5 minuten pauze
 
 
+11:10 Exercise: andere repo verkennen 
 
-2e uur
+
+11:25 Voordoen: demo GitHub projectomgeving.
+
+11:35 voordoen: hoe ziet dat er uit in Rstudio, hoe ziet dat er uit in python notebook
+
+11:50 Exercise: XXX
+
+
+12:00 lunchpauze
+
+
+13:00 git conflicts --> we laten iemand iets aanpassen, zetten zelf een commit klaar op dezelfde regel tekst, merge error --> wat nu.
+ook: if all fails, gewoon backuppen, opnieuw downloaden, copy-paste wat je aan wilde passen.
+
+13:20 privacy / security
+
+
 
 
