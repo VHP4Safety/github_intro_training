@@ -74,11 +74,11 @@ text-decoration: none;
 
 
 .Rchunk {
-  background-color: #D5F5E3  !important;
+  background-color: #E8E8E8 !important;
 }
 
 .Rout {
-  background-color: #EAFAF1  !important;
+  background-color: #F8F8F8 !important;
 }
 
  /* -----------Questions and other blocks, thank you rstudio4edu ---------*/
@@ -146,4 +146,8 @@ div.dagopdracht{
 
 .blauw {
   background-color: #f3fbfe;
+}
+
+.oranje {
+  background-color: #FDF2E9;
 }
