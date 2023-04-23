@@ -7,9 +7,10 @@ knitr::opts_chunk$set(echo = F, class.source="Rchunk", class.output="Rout")
 ## A version control and Git
 We will start with a short presentation on version control systems and git.
 
+---
 
 ## B getting to know Github
-### Exercise: a real life example (10 min) {.blauw}
+### Exercise: a real life example (10 min) 
 
 *(Thank you Coderefinery for this exercise, lisenced [CC BY 4.0.](https://creativecommons.org/licenses/by/4.0/))*
 
@@ -48,12 +49,23 @@ Terminology:
 
 We will do this live during the workshop and you will -hopefully- click along. In case you forget the procedure, [see this link.](https://docs.github.com/en/get-started/quickstart/create-a-repo)
 
+###  {.unlisted .unnumbered}
+
+---
 
 ## C: Github main workflow
 
-### Exercise: main workflow (10 min) {.blauw}
+We will: 
+
+ - Start a new branch
+ - Add / Change a file and committed those changes to GitHub
+ - Open and merge a pull request
+
+
+### Exercise: main workflow (10 min) 
 
 If you don't have your own github repo yet, make one now. 
+
    - In the "Repository name" box, type hello-world. 
    - Set it to private, 
    - include a .gitignore file (take any template, we use the R one). 
@@ -65,25 +77,30 @@ If you don't have your own github repo yet, make one now.
  - On the top left of your repo, click on `main`. It is a dropdown menu.
  
 ![](./images/clickmain.png){ width=70%}
+</br>
 
  - In the field `Find or create a branch...` Type a branch name, `recipe_dev`
  - Click Create branch: recipe_dev from main.
 
-![](./images/recipe_dev.png){ width=70%}
+![](./images/recipe_dev.png){ width=40%}
 
 You now have 2 branches in your repo: the `main` branch which always contains the latest stable version of a project, and the `recipe_dev` branch, that we will use to add a recipe to the repo.
 
+Github switched to your new branch automatically, so the drop down menu should now state `recipe_dev`.
+
 **2. make a change. in this case: add a file.**
 
- - add a file to your repo called "recipe.txt", containing your favorite recipe for chocolate milk. You can either create this file on github, or create it on your laptop and upload it:
+ - add a file to your repo called "recipe.txt", containing your favorite recipe for chocolate milk. You can either create this file on github, or create it on your laptop and upload it (make sure you work in the correct branch):
  
-![](./images/create_file2.png){ width=100%}
+![](./images/create_file3.png){ width=100%}
 
-![](./images/recept.png){ width=100%}
+ - type your recipe, for example:
 
- - click `commit new file` : 
+![](./images/recept.png){ width=40%}
 
-![](./images/commitrecipe.png){ width=100%}
+ - scroll to the bottom of the page and click `commit new file` : 
+
+![](./images/commitrecipe.png){ width=70%}
 
 Now your two branches are different. 
 
@@ -93,6 +110,37 @@ Now your two branches are different.
 
 **3. Open a pull request**
 
+Your recipe_dev branch is now different from the main branch. If you like the changes, you can merge them into the main branch. This is called "pulling".  
+
+To do so, you open a pull request, proposing your changes and requesting that someone review and include your contribution. 
+
+ - click on the `pull requests` tab of your repo
+ - click `new pull request`
+ - right above the yellow block, you should define which branch is pulled into which other branch. We will pull `recipe_dev` (=compare) into `main` (=base):
+ 
+![](./images/compare.png){ width=30%}
+
+ - Changes to the main branch are shown with red and green highlights.
+ - click `create pull request`
+ - you can add a title and some info if you like. Also, you can add people you think should be reviewing a change, or connect the changes to a label. We will not cover these topics in the current workshop.
+ - click `create pull request` and don't click anything else yet.
+
+**4. Merge a pull request**
+
+Pull requests are not automatically turned into a merge of the two branches. Often, one person is in the lead for a repo, and will determine which changes will be merged. Also, changes in pull requestst can be edited before they are merged. 
+
+For example, if I am a co-author on a paper that is written using github, I will propose changes with a  pull request, but the first author will decide whether to accept them, reject them, or accept with some edits.
+
+I tend to agree with myself: as we have just proposed our own changes, we will now merge them immediately. 
+
+ - Scroll to the bottom of the pull request, click Merge pull request:
+ 
+![](./images/mergepull.png){ width=30%} 
+ 
+ - Click Confirm merge. 
+ - you can now safely delete the `recipe_dev` branch. It is good practice to just open a new branch for a new issue you are resolving.
+
+**branch off, make changes and commit, pull request, merge pull request ** is a main github workflow. 
 
 See also the Github Docs, a great source of [Github tutorials](https://docs.github.com/en/get-started/quickstart/github-flow).
 
