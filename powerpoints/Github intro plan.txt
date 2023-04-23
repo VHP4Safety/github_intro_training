@@ -20,16 +20,15 @@
 2e  helft: intro (15 min)  + zelf GitHub ervaren (30)
 
 
-13:00 intro over iets
+13:00 intro Issues en Projects (show how to make an issue. Show how to use the kamban board)
 
-13:15 exercise: forking
+13:15 exercise: issues
 
-13:30 code along: git conflicts 
+13:30: exercise: forking
+
+13:45 code along: git conflicts 
 --> we laten iemand iets aanpassen, zetten zelf een commit klaar op dezelfde regel tekst, merge error --> wat nu. ook: if all fails, gewoon backuppen, opnieuw downloaden, copy-paste wat je aan wilde passen.
 
-
-13:45 voordoen: wat doen al die andere tabjes op GitHub
-voordoen: GitHub projectomgeving?
 
 14:00 
 
