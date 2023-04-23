@@ -1,66 +1,30 @@
-# Part 1: Starting with github
+# Part 1: Starting with github for coders
 
 ```{r, include=FALSE}
 knitr::opts_chunk$set(echo = F, class.source="Rchunk", class.output="Rout")
 ```
 
+If you are using programming languages, and are already on a "I have seen some repo's before, I roughly know what pushing and pulling is" level of friendship with git/github, this page is for you.
+
+
 ## A version control
 We will start with a short presentation on version control systems and git.
 
 
-## B getting to know Github
-### Exercise: a real life example (10 min) {.blauw}
+## B Setting up a repo
 
-*(Thank you Coderefinery for this exercise, lisenced [CC BY 4.0.](https://creativecommons.org/licenses/by/4.0/))*
+(note: we will do this with a demo as well lateron. Feel free to ignore us if you have already completed this part and know what you are doing)
 
-On github, you can create and share repositories (folders), which contain the (analyses) code and related files for a project. Git will keep track of alle changes to these files. 
+<mark> how t set up repo </mark>
 
-Before we create a new repository from scratch and learn how to record changes
-and create and merge branches, let us explore an **existing Git repository** on
-GitHub.  The goal here is not to teach GitHub yet (we will explain some of the
-concepts later), but rather to get a glimpse of the wider picture.
+## C connecting Github
 
-As an example we can explore a famous Git repository which was used
-to produce the Event Horizon Telescope images: [https://github.com/achael/eht-imaging](https://github.com/achael/eht-imaging).
+We will use Rstudio (Posit) for this lesson, workflows in other software is very similar. 
 
-- History
-  - Explore the [repository](https://github.com/achael/eht-imaging). (see explanation of terminology below)
-  - Explore the [history](https://github.com/achael/eht-imaging/commits/main).
-  - Note that there are [branches](https://github.com/achael/eht-imaging/network).
-- Collaboration
-  - You can refer to [code portions](https://github.com/achael/eht-imaging/blob/31361ab62c5718b08612fc75e409795f004f5071/ehtim/imaging/starwarps.py#L66-L75)
-    (so much simpler to send a link rather than describe which file to open and where to scroll to).
-  - Browse the [forks](https://github.com/achael/eht-imaging/network/members).
-  - See [contributors](https://github.com/achael/eht-imaging/graphs/contributors).
-- Releases
-  - Explore the [release history](https://github.com/achael/eht-imaging/releases).
-- Reproducibility
-  - Discuss the value of the annotation feature: [example file](https://github.com/achael/eht-imaging/blame/main/ehtim/imaging/starwarps.py).
+<mark> how connect Rstudio & github </mark>
 
-Terminology:
+## D: Github distributed workflow
 
- - **repository** or repo : the version controlled folder. Can be local (on your laptop) or the one on github/gitlab
- - **branch** : git branches are individual projects within a git repository. A temporary copy of the version controlled folder within the same repo (actually, it is a temporary  set of code changes with a name).
- - **fork** A fork is a new repository that shares code and visibility settings with the original “upstream” repository. Forks are often used to iterate on ideas or changes before they are proposed back to the upstream repository, such as in open source projects or when a user does not have write access to the upstream repository.([source](https://docs.github.com/en/get-started/quickstart/fork-a-repo))
-
-
-### Exercise: Setting up a github repo {.blauw}
-
-Marc will do this live during the workshop and you will -hopefully- click along. In case you forget the procedure, [see this link.](https://docs.github.com/en/get-started/quickstart/create-a-repo)
-
-
-## C: Github main workflow
-
-### EXERCISE: main workflow (10 min) {.blauw}
-Complete the [hello world](https://docs.github.com/en/get-started/quickstart/hello-world) exercise on Github
-
-*Note: actually, creating a branch is not necessary, you could directly edit the main branch. But it is not good practice when collaborating.*
-
-### Demo: distributed workflow
-
-We will demo what a distributed git/github workflow would look like from an R user perspective. If you are in fact an R user, <mark>you can find a tutorial here. </mark>
-
-### Distributed workflow for future reference
 In short, the core of a github workflow consists of :
 
 #### Give each project its own Git repository
@@ -83,6 +47,9 @@ It is recommended to push your commits at least once per day, to keep the copy o
 
 If you work together with other people, they may be changing the github repository as well. In this case, you want to update your Git repository on your computer based on the changes on GitHub. This update process is the reverse of pushing, hence it is called **pulling** (you 'pull' the changes from GitHub to your computer).
 
+### Exercise: github workflow from Rstudio
+
+<mark> workflow uit reader hierzo </mark>
 
 ## Github and data 
 
