@@ -22,8 +22,7 @@ output:
 ---
 
 ```{r setup, include=FALSE}
-knitr::opts_chunk$set(echo = TRUE)
-
+knitr::opts_chunk$set(echo = F, class.source="Rchunk", class.output="Rout")
 ```
 
 # Workshop overview
