@@ -1,4 +1,4 @@
-# Collaborate on Github
+# Part 2: Github incollaborations
 
 ## Collaboration workflow in short
 Collaborating on a GitHub code repository is a fundamental aspect of modern software development, enabling teams to work together seamlessly, regardless of location. Here are some steps and code examples to collaborate effectively on GitHub:

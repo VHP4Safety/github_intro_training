@@ -1,4 +1,4 @@
-# Starting with github
+# Part 1: Starting with github
 
 ```{r, include=FALSE}
 knitr::opts_chunk$set(echo = F, class.source="Rchunk", class.output="Rout")
