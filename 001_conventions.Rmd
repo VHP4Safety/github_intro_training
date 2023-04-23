@@ -8,14 +8,8 @@ This reader has a number of conventions. Below, we indicate the most important o
 
 ## Exercises
 
-Exercises in this reader have a blue background like this:
-
-###### example exercise {.blauw}
-
-Do stuff by yourself
-
 ###### example code along {.oranje}
-But "code along exercises" (one of the trainers will demo something while you copy their steps in your own github account) have an orange background. We will not actually write a lot of code by the way. Perhaps even none.
+"code along exercises" (one of the trainers will demo something while you copy their steps in your own github account) have an orange background. We will not actually write a lot of code by the way. Perhaps even none.
 
 
 
