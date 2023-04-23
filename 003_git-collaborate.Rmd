@@ -1,27 +1,20 @@
 # Part 2: Github in collaborations
-
+```{r, include=FALSE}
+knitr::opts_chunk$set(echo = F, class.source="Rchunk", class.output="Rout")
+```
 
 ## A: collaboration on github
 
-### Demo gitignore file
 
-<mark>inhoud be here </mark>
+### Interactive demo: branches and pull requests {.oranje}
 
-.gitignore files (note the dot) are text files containing a list of files in a repo directory you do not want Git to keep version control on. They will not be uploaded to the github repitory.
+ - make a branch in your own repo
+ - change a file
+ - make a pull request
+ - merge branches
+ - delete your dev branch
 
-Here is a nice [list of .gitignore templates.](https://github.com/github/gitignore)
-
-### Exercise gitignore file
-
- - in your Hello World repository, create a new file called `dontfollowme.txt`
-
- ![*Click here to create a new file*](./images/create_file.png){ width=100%}
-
-
-### Exercise: branches and pull requests
-
-
-### Exercise: forking
+### Exercise: forking {.blauw}
 
 Note: we would like to mention that if you want to keep complete control over a repo, and be able to repair major screw ups such as putting secret files on a public github repo, you should [disable forking](https://docs.github.com/en/repositories/managing-your-repositorys-settings-and-features/managing-repository-settings/managing-the-forking-policy-for-your-repository).
 
@@ -44,7 +37,7 @@ Note: we would like to mention that if you want to keep complete control over a 
 
 ## B: Licenses
 
-### Exercise: add a license to your repo
+### Exercise: add a license to your repo {.blauw}
 
 Please go over this [Github documentation](https://docs.github.com/en/communities/setting-up-your-project-for-healthy-contributions/adding-a-license-to-a-repository)
 
@@ -116,7 +109,7 @@ GET url
 
 Perhaps, try all this with a false API key before you use the real one. 
 
-In R, one approach to make your life easier is to use environment variables or configuration files on your own computer. <mark>Find this method [here.](#passwords). </mark>
+In R, one approach to make your life easier is to use environment variables or configuration files on your own computer. Find this method [here.](#passwords).
 
 
 ### Case: password panic 
@@ -140,10 +133,5 @@ Suppose a researcher comes to you stressed: they included a password to their NC
  1. In groups of 2: discuss the potential security risks associated with storing keys in code when using GitHub as a version control system. Discuss the risks of accidental exposure or unauthorized access specifically for your organisation, and how to communicate the importance of protecting sensitive information in code repositories in your function.
 
  1. Describe how you would advice researchers to store passwords / keys/ tokens when using github. Explain how these practices can reduce the risk of accidental exposure or unauthorized access to sensitive information.
-
-
-
-```
-
 
 

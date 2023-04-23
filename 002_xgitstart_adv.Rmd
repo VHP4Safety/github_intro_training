@@ -47,7 +47,7 @@ It is recommended to push your commits at least once per day, to keep the copy o
 
 If you work together with other people, they may be changing the github repository as well. In this case, you want to update your Git repository on your computer based on the changes on GitHub. This update process is the reverse of pushing, hence it is called **pulling** (you 'pull' the changes from GitHub to your computer).
 
-### Exercise: github workflow from Rstudio
+### Exercise: github workflow from Rstudio {.blauw}
 
 <mark> workflow uit reader hierzo </mark>
 
