@@ -150,7 +150,7 @@ See also the Github Docs, a great source of [Github tutorials](https://docs.gith
 
 ### Code along: distributed workflow {.oranje}
 
-We will demo what a distributed git/github workflow would look like from an R user perspective. If you are in fact an R user, <mark>you can find a tutorial here. </mark>
+We will demo what a distributed git/github workflow would look like from an R user perspective. If you are in fact an R user, use the other "Part 1" item in the table of contents to the left.
 
 Try to code along with the example, even if you do not regularly use programming languages.
 

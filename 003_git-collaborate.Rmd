@@ -5,7 +5,7 @@ knitr::opts_chunk$set(echo = F, class.source="Rchunk", class.output="Rout")
 
 ## A: collaboration on github
 
-We will start with a demo on all the up-until-now-unused-tabs in github.com, with special attention to **Issues** and <mark>**Projects.**</mark> 
+We will start with a demo on all the up-until-now-unused-tabs in github.com, with special attention to **Issues** and **Projects.**
 
 ### Issues
 
