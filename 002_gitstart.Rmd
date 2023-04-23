@@ -44,7 +44,7 @@ Terminology:
  - **fork** A fork is a new repository that shares code and visibility settings with the original “upstream” repository. Forks are often used to iterate on ideas or changes before they are proposed back to the upstream repository, such as in open source projects or when a user does not have write access to the upstream repository.([source](https://docs.github.com/en/get-started/quickstart/fork-a-repo))
 
 
-### Exercise: Setting up a github repo {.blauw}
+### Exercise: Setting up a github repo {.oranje}
 
 Marc will do this live during the workshop and you will -hopefully- click along. In case you forget the procedure, [see this link.](https://docs.github.com/en/get-started/quickstart/create-a-repo)
 
@@ -55,6 +55,19 @@ Marc will do this live during the workshop and you will -hopefully- click along.
 Complete the [hello world](https://docs.github.com/en/get-started/quickstart/hello-world) exercise on Github
 
 *Note: actually, creating a branch is not necessary, you could directly edit the main branch. But it is not good practice when collaborating.*
+
+
+### gitignore files: need to know
+
+.gitignore files (note the dot) are text files containing a list of files in a repo directory you do not want Git to keep version control on. They will not be uploaded to the github repitory.
+
+ This needs to be done before asking git to follow a file (staged and commited). A file already added to the index of the repository (i.e. which files git will follow) will not be unfollowed based on the .gitignore. Unfollowing a file requires that you do some coding to remove it from the index:
+ 
+ `git rm --cached <filename>`
+
+Here is a nice [list of .gitignore templates.](https://github.com/github/gitignore)
+
+.gitignore files make most sense when working distributedly (if that is a word).
 
 ### Demo: distributed workflow
 
