@@ -17,28 +17,28 @@
 12:00 lunchpauze
 
 
-2e  helft: intro (15 min)  + zelf GitHub ervaren (30)
+2e  helft: info (25 + 15 + 10)  + zelf GitHub ervaren (30 + 15 + 10) + checkout (15)
 
 
-13:00 intro Issues en Projects (show how to make an issue. Show how to use the kamban board)
+13:00 intro 
 
-13:15 exercise: issues
+Releases (Show how to make a release version)
+Issues (show how to make an issue)
+Projects (Show how to use the kamban board)
 
-13:30: exercise: forking
+13:25 exercise: issues
 
-13:45 code along: git conflicts 
+13:40: exercise: forking
+
+13:55 demo: git conflicts 
 --> we laten iemand iets aanpassen, zetten zelf een commit klaar op dezelfde regel tekst, merge error --> wat nu. ook: if all fails, gewoon backuppen, opnieuw downloaden, copy-paste wat je aan wilde passen.
 
 
-14:00 
+14:10 Exercise: add a license to your repo 
 
-privacy / security
+14:25 uitleg privacy / security (casus password panic)
 
-Wanneer gebruik je wat?
+14:35 exercise: security
 
-Extra Mogelijkheden op github: kanban, actions, issues 
-
-
-
-
+14:45 check out
 

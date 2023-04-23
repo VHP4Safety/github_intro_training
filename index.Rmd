@@ -27,9 +27,6 @@ knitr::opts_chunk$set(echo = F, class.source="Rchunk", class.output="Rout")
 
 # Workshop overview
 
-## Learning objectives
-
-<mark>After this workshop you:</mark>
 
 ## Prerequisites
 
@@ -37,9 +34,35 @@ Before you continue with this lesson, make sure you have done the following:
 
 - You have [created a GitHub account](https://github.com/join?ref_cta=Sign+up&ref_loc=header+logged+out&ref_page=%2F&source=header-home). 
 
-And if you use programming languages:
-- you are comfortable working with R and Rstudio
+And if you want to be able to participate the "sync with Rstudio" exercise and / or use programming languages:
+
 - You have [installed Git](https://git-scm.com/downloads) on your computer.
+- You have installed R 
+- and finally Rstudio
+
+## Contents 
+
+This workshop is divided in 2 parts: 
+
+- before the lunch, the workshop will focus on getting some hands on experience with github and version control, setting up projects.
+- after lunch, we will focus on different tools and option and when to use them, collaboration, releases, licenses, security issues and connections to data.
+
+
+## Schedule 
+
+10:00: part 1
+
+
+12:00 lunch
+
+
+13:00 part 2
+
+
+15:00: guided tour of the RIVM
+
+## This reader
+We build this reader both as a guide to the workshop, and for future reference. We will use some of the exercises in the workshop, most of the text is there to make sure you can still use this material in a couple of months.
 
 ## Git
 
@@ -73,32 +96,6 @@ Because they are storage systems, not version control systems. They store change
 Git also allows branching: creating a parallel copy of a repository in which you can try something (a new analysis for example), which you can merge into the main folder when everything is working. So no-one needs to wait for you to get things working again before they can work on the project.
 
  
-## This reader
-We build this reader both as a guide to the workshop, and for future reference. We will use some of the exercises in the workshop, most of the text is there to make sure you can still use this material in a couple of months.
-
-## Contents 
-
-This workshop is divided in 2 parts: 
-
-- before the lunch, the workshop will focus on getting some hands on experience with github and version control, setting up projects and collaboration.
-- after lunch, we will focus on different tools and option and when to use them, releases, licenses, security issues and connections to data.
-
-## Schedule 
-
-<mark>10:00</mark>
 
 
-lunch
 
-
-13:00
-
-
-15:00: guided tour of the RIVM
-
-
-## TLDR
-
-I you have absolutely no time other than reading this message, please try to do the following:
-
- - 
