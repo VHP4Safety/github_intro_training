@@ -8,7 +8,7 @@
 
 11:00 Meedoen: Github repo samen maken
 
-11:10 Exercise: GitHub main workflow : maak een file met een recept. Commit changes. Push. 
+11:10 Exercise: GitHub main workflow in eigen repo : maak een file met een recept. Commit changes. Push. 
 
 11:45 voordoen: hoe ziet dat er uit in Rstudio, hoe ziet dat er uit in python notebook
 
@@ -17,10 +17,19 @@
 
 12:00 lunchpauze
 
-
-
-
+13:00 Git collaboration
 13:00 Voordoen: demo GitHub projectomgeving?
+
+Forken en samenwerken opdracht: 
+Fork de reader repo
+Vind een typo of iets wat je wilt verbeteren
+Fix dat
+Commit the change
+Push the repo to the fork
+Maak een pull request aan
+
+
+
 
 Exercise: XXX
 
