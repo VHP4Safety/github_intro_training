@@ -30,7 +30,7 @@
 --> we laten iemand iets aanpassen, zetten zelf een commit klaar op dezelfde regel tekst, merge error --> wat nu. ook: if all fails, gewoon backuppen, opnieuw downloaden, copy-paste wat je aan wilde passen.
 
 
-14:00 
+14:00 Exercise: add a license to your repo 
 
 privacy / security
 
