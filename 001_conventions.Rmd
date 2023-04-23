@@ -11,8 +11,9 @@ This reader has a number of conventions. Below, we indicate the most important o
 ###### example code along {.oranje}
 "code along exercises" (one of the trainers will demo something while you copy their steps in your own github account) have an orange background. We will not actually write a lot of code by the way. Perhaps even none.
 
+## Table of contents
 
-
+You can click on table of contents items to show subitems.
 
 ## Code blocks
 
