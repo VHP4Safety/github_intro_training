@@ -5,6 +5,40 @@ knitr::opts_chunk$set(echo = F, class.source="Rchunk", class.output="Rout")
 
 ## A: collaboration on github
 
+We will start with a demo on all the up-until-now-unused-tabs in github.com, with special attention to **Issues** and <mark>**Projects.**</mark> 
+
+### Issues
+
+Github issues are the core for collaboration with people within and outside your code project. Issues can be used for external people to report a bug, a feature request or a question regarding functionality or implementation. People using for example your package can ask questions or report problems in the form of an issue. Below, an example is shown for the `{dplyr}` R-package, which has a huge user community.
+
+```{r}
+knitr::include_graphics(
+  here::here(
+    "images",
+    "dplyr_issues.png"
+  )        
+)
+```
+
+Posting an issue when you encounter an error or bug helps developers create robuster code and is the core driving force for developing new features or resolving problems in open source software. Opening issues is an easy way to start contributing to the open source community.
+
+We have shown you before how to make issues if you find any mistakes in the reader you do not want to solve with a fork-->pull request routine. This serves as our todo-list. 
+
+
+### Exercise: Looking at issues 
+
+(A)  
+Review the first bug you can find on this page: 
+
+https://github.com/tidyverse/dplyr/issues
+
+Read the description and the proposed solutions if any. Describe in your own words what the bug relates to. Discuss with your neighbour.
+
+(B)  
+Review issue  [#5640 (click)](https://github.com/tidyverse/dplyr/issues?q=5640) in the `{dplyr}` issues. Why was this issue closed? Was the issue resolved for the user who reported it?
+
+
+
 ### Exercise: forking 
 
 Note: we would like to mention that if you want to keep complete control over a repo, and be able to repair major screw ups such as putting secret files on a public github repo, you should [disable forking](https://docs.github.com/en/repositories/managing-your-repositorys-settings-and-features/managing-repository-settings/managing-the-forking-policy-for-your-repository).
@@ -29,6 +63,14 @@ We like to live on the edge, so our reader repo is forkable and public.
  - We will merge your changes to our reader if we like them :)
 
 ---
+
+### cloning or downloading
+
+Alternatively, if you want to work on a repo without adding your work back into the original, you can just download a .zip file with all the files (probably the way to go for a reprohack):
+
+![*download here*](./images/clonedownload.png){ width=60%}
+
+You can also clone a repo to your laptop to work on it locally. This was covered in the demo before the lunch, and is necessary for working offline in a distributed way.
 
 ## B: Licenses
 
