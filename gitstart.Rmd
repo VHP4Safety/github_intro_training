@@ -1,7 +1,7 @@
 # Starting with github
 
 ```{r, include=FALSE}
-knitr::opts_chunk$set(echo = F)
+knitr::opts_chunk$set(echo = F, class.source="Rchunk", class.output="Rout")
 ```
 
 ## Prerequisites
@@ -88,12 +88,12 @@ GitHub is not designed for data governance, data quality control, or actually, d
 
 ## No really, github and data
 
-So what about the data?
+Fair enough. So what about the data?
 
 While GitHub does provide some basic data storage capabilities, such as the ability to store small datasets or documentation files, it is generally not recommended to store large datasets or sensitive data on GitHub. Its version control is catered towards code and text, not data. This means that it may be difficult to track changes to datasets over time, and to revert to previous versions of a dataset if necessary.
 Larger datasets will also exceed the storage limits, which can impact performance and functionality.
 
-Also, GitHub is a public platform, and while repositories can be private, most organisations have rules and dedicated data storage solutions in place on where to store data, particularly for sensitive or confidential data.
+Also, GitHub is a public platform, and while repositories can be private and are secure, most organisations have rules and dedicated data storage solutions in place on where to store data, particularly for sensitive or confidential data.
 
 
 ## Thinking in projects

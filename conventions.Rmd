@@ -1,5 +1,9 @@
 # Conventions
 
+```{r, include=FALSE}
+knitr::opts_chunk$set(echo = T, class.source="Rchunk", class.output="Rout")
+```
+
 This reader has a number of conventions. Below, we indicate the most important ones.
 
 ## Code blocks
