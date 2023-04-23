@@ -5,7 +5,7 @@ account: alyanne.dehaan@hu.nl
 server: lesmaterialen.rstudio.hu.nl
 hostUrl: https://lesmaterialen.rstudio.hu.nl/__api__
 appId: 29
-bundleId: 391
+bundleId: 392
 url: https://lesmaterialen.rstudio.hu.nl/github_intro/
-when: 1682276851.68741
-lastSyncTime: 1682276851.68742
+when: 1682280666.20794
+lastSyncTime: 1682280666.20795
