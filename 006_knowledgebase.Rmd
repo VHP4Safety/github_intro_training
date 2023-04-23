@@ -161,6 +161,7 @@ There are a few different workflow that you can use to collaborate in github. We
 
 Clone the repository: To start collaborating, clone the repository to your local machine using the following command in your terminal:
 
+
 ```
 # Bash
 git clone <repository_url>
@@ -293,13 +294,15 @@ In the code above, we first load the dotenv package, which provides functions to
 #### bash
 Similarly, in bash, you can manage keys by exporting them as system variables, which can be accessed by other scripts or processes running on the same system:
 
-bash:
-
-> # Export the key as a system variable
-> export EXAMPLE_KEY="your_key_value"
-
-> # Use the key in other scripts or processes
-> ./script.sh
+```
+# bash:
+# Export the key as a system variable
+export EXAMPLE_KEY="your_key_value"
+```
+```
+# Use the key in other scripts or processes
+ ./script.sh
+```
 
 In the example above, we use the export command to set the value of the key "EXAMPLE_KEY" as a system variable, making it accessible to other scripts or processes running on the same system. This way, the sensitive key is not hard-coded in the script, but rather managed as a system variable, providing a more secure way to store and access sensitive information.
 

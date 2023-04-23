@@ -5,18 +5,11 @@ knitr::opts_chunk$set(echo = F, class.source="Rchunk", class.output="Rout")
 
 ## A: collaboration on github
 
-
-### Interactive demo: branches and pull requests {.oranje}
-
- - make a branch in your own repo
- - change a file
- - make a pull request
- - merge branches
- - delete your dev branch
-
-### Exercise: forking {.blauw}
+### Exercise: forking 
 
 Note: we would like to mention that if you want to keep complete control over a repo, and be able to repair major screw ups such as putting secret files on a public github repo, you should [disable forking](https://docs.github.com/en/repositories/managing-your-repositorys-settings-and-features/managing-repository-settings/managing-the-forking-policy-for-your-repository).
+
+We like to live on the edge, so our reader repo is forkable and public. 
 
  - Go to the [reader repo](https://github.com/VHP4Safety/github_intro_training)
  - Fork the reader. You now have a personal copy in your github cloud environment.
@@ -32,20 +25,26 @@ Note: we would like to mention that if you want to keep complete control over a 
 
   ![*Commit is all the way down*](./images/commitme.png){ width=100%}
 
- - Make a pull request to include your forked version in our reader by following [these steps.](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/creating-a-pull-request-from-a-fork)
+ - Make a pull request to include your forked version in our reader 
  - We will merge your changes to our reader if we like them :)
 
 ## B: Licenses
 
-### Exercise: add a license to your repo {.blauw}
+We think public repos should always have a license. You can find our [here.](https://github.com/VHP4Safety/github_intro_training/blob/main/LICENSE.txt)
 
-Please go over this [Github documentation](https://docs.github.com/en/communities/setting-up-your-project-for-healthy-contributions/adding-a-license-to-a-repository)
 
+Having a license is not obligatory. Without a license, the default copyright laws apply: you own the thing and no one may reuse it. However, if you publish something in a **public** repository on github.com, other users of GitHub.com have the right to view and fork your repository. If you change your mind and make a repository private, excisting forks of the repo will not disappear.
+
+If you're creating an open source project, we strongly encourage you to include an open source license. Data stewards will probably know more about this than we do, but if you need help choosing a license, see [this website](https://choosealicense.com/).
+
+### Exercise: add a license to your repo 
+
+Please go over this [Github documentation](https://docs.github.com/en/communities/setting-up-your-project-for-healthy-contributions/adding-a-license-to-a-repository) to add a license to your Hello_world repo even though it is set to private, as a practice. 
 
 
 ## C: security
 
-*TLDR: do not put stuff online in public repo's that you do not want the world to know. If you mess up, some stuff can be fixed, but it is probably easier to change your passwords and don't mess up again. In general, we recommend not uploading compromising pictures or other top secret files to public repo's.*
+*TLDR: do not put stuff online in public repo's that you do not want the world to know. If you mess up, most stuff can be fixed, but it is probably easier to change your passwords and don't mess up again. In general, we recommend not uploading compromising pictures or other top secret files to public repo's.*
 
 Github security could be its own 1-day workshop. So we'll just direct you to [this summary](https://spectralops.io/resources/how-to-choose-a-secret-scanning-solution-to-protect-credentials-in-your-code/), this [github doc](https://docs.github.com/en/authentication/keeping-your-account-and-data-secure/) and highlight 2 important aspects: github tokens, and the fact that you should not store passwords in text in a github repo.
 
