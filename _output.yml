@@ -1,6 +1,6 @@
 bookdown::gitbook:
   number_sections: false
-  toc_depth: 2
+  toc_depth: 3
   css: style.css
   anchor_sections: false
   split_by: chapter

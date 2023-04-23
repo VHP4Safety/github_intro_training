@@ -2,15 +2,15 @@
 
 10:00 intro rondje
 
-10:15 Zenden: version control why, intro git(hub), zie https://www.youtube.com/watch?v=PhyUy7z4S-M
+10:15 A Zenden: version control why, intro git(hub), zie https://www.youtube.com/watch?v=PhyUy7z4S-M
 
-10:45 Exercise: andere repo verkennen 
+10:45 B Exercise: andere repo verkennen 
 
-11:00 Meedoen: Github repo samen maken
+11:00 B Meedoen: Github repo samen maken
 
-11:10 Exercise: GitHub main workflow in eigen repo : maak een file met een recept. Commit changes. Push. 
+11:10 C Exercise: GitHub main workflow in eigen repo : maak een file met een recept. Commit changes. Push. 
 
-11:45 voordoen: hoe ziet dat er uit in Rstudio, hoe ziet dat er uit in python notebook
+11:45 C voordoen: hoe ziet dat er uit in Rstudio, hoe ziet dat er uit in python notebook
 
 
 

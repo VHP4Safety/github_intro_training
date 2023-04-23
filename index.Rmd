@@ -31,7 +31,15 @@ knitr::opts_chunk$set(echo = F, class.source="Rchunk", class.output="Rout")
 
 <mark>After this workshop you:</mark>
 
+## Prerequisites
 
+Before you continue with this lesson, make sure you have done the following:
+
+- You have [created a GitHub account](https://github.com/join?ref_cta=Sign+up&ref_loc=header+logged+out&ref_page=%2F&source=header-home). 
+
+And if you use programming languages:
+- you are comfortable working with R and Rstudio
+- You have [installed Git](https://git-scm.com/downloads) on your computer.
 
 ## Git
 

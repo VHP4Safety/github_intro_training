@@ -1,92 +1,18 @@
-# Part 2: Github incollaborations
-
-## Collaboration workflow in short
-Collaborating on a GitHub code repository is a fundamental aspect of modern software development, enabling teams to work together seamlessly, regardless of location. Here are some steps and code examples to collaborate effectively on GitHub:
-
-There are a few different workflow that you can use to collaborate in github. We will show you one example: `clone->branch->commit->push->pull-request->merge`. This workflow consists of the following steps. Below the workflow, we continue with how the commands would look like, when working from a terminal. You could also combine these commands with working from the GUI in RStudio.
-
-## Workflow for collaboration
-
-Clone the repository: To start collaborating, clone the repository to your local machine using the following command in your terminal:
-
-```
-# Bash
-git clone <repository_url>
-```
-
-try this out with the Github [repo that contains the Reader for this course](https://github.com/VHP4Safety/github_intro_training)
-
- 1. Create a new branch: Create a new branch for your changes to isolate them from the main branch. Choose a descriptive name for the branch and create it using the following command:
-
-```
-# Bash
-git checkout -b <myinitials_mytask>
-```
-
- 2. Make changes: Make your desired changes to the codebase, such as adding new features, fixing bugs, or improving documentation, using your preferred code editor. Here: Try to find a typo and correct it. You should be fine. For sure there are sure some typos to be found! Save the file.
-
- 3. Stage and commit changes: Stage and commit your changes locally with descriptive commit messages using the following commands:
-
-```
-# Bash
-git add .
-git commit -m "Your commit message here"
-```
-
- 4. Push changes to the remote repository: Push your changes to the remote repository on GitHub using the following command:
-
-```
-# Bash
-git push origin <branch_name>
-```
+# Part 2: Github in collaborations
 
 
- 5. Create a pull request: Go to the repository's GitHub page, navigate to the "Pull Requests" tab, and click on the "New Pull Request" button. Choose the appropriate base and compare branches, and provide a descriptive title and comment for your pull request.
+## A: I don't know yet
 
- 6. Review and merge: Collaborators can review your changes, provide feedback, and approve the pull request. Once approved, the repository owner or an authorized collaborator can merge the changes into the main branch.
+## B: Licenses
 
- 7. Update local repository: After the changes are merged, update your local repository with the latest changes from the main branch using the following commands:
+### Exercise: add a license to your repo
 
-```
-# Bash
-git checkout main
-git pull origin main
-```
+Please go over this [Github documentation](https://docs.github.com/en/communities/setting-up-your-project-for-healthy-contributions/adding-a-license-to-a-repository)
 
-8. Repeat steps 3-8: Continue collaborating by repeating steps 3-8 for subsequent changes and updates to the repository.
 
-By following these steps and utilizing Git commands, teams can effectively collaborate on GitHub to develop high-quality software together.
 
-## RStudio GUI
-Some of the commands above can also be run from the RStudio Git client. In the top right corner of the GUI in the `Git Pane`, you will find some options to `Commmit`, `Pull` and `Push` from the GUI.
 
-```{r}
-knitr::include_graphics("https://book.cds101.com/img/stage_step_3.png")
-```
 
-## Visualize the history of a Github repo
-To get an idea on who contributed what, and how the repo was developed, we can create visulizations of the github reopo from a terminal or R. If you are interested in how to visualize the history of github repo, including commits to all the branches etc. Check out [this blog](https://www.r-bloggers.com/2018/03/guide-to-tidy-git-analysis/). To get (a simple) graphical representation of a github repo run the following command from the terminal.
 
-```
-# bash
-git log --graph --full-history --all --color         --pretty=format:"%x1b[31m%h%x09%x1b[32m%d%x1b[0m%x20%s"
-```
 
-```
-* 38cb99a        (HEAD -> main, origin/main, origin/HEAD) adapted layout
-*   c1cfbc6      Merge branch 'main' of https://github.com/VHP4Safety/github_intro_training
-|\  
-| *   1998a66    Merge pull request #2 from VHP4Safety/ontwikkelbranche_Alyanne1
-| |\  
-| | * 2c74145    (origin/ontwikkelbranche_Alyanne1, origin/git-collaboration, git-collaboration) oplettennietvergeten
-| | * debb613    data en github
-```
 
-There are also tools that help you visualize the repo's history is a more user friendly way. If you like to learn more, see e.g. [this blogpost](https://livablesoftware.com/tools-to-visualize-the-history-of-a-git-repository/)
-
-The easiest way to visually inspect your repos commit history is by inspecting the `History` in the `Git Pane` of your RStudio GUI. See the image below:
-
-```{r}
-knitr::include_graphics("https://carpentries-incubator.github.io/git-Rstudio-course/fig/history-rstudio2.png")
-```
-Licenced CC-BY 4.0 (from https://carpentries-incubator.github.io/git-Rstudio-course)
