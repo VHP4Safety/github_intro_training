@@ -1,33 +1,37 @@
-1e  uur
+1e  uur: start (15 min) + info (30 min + 15) + zelf GitHub ervaren (60 min)
 
 10:00 intro rondje
 
-10:20 Zenden: intro git(hub), zie https://www.youtube.com/watch?v=PhyUy7z4S-M
+10:15 Zenden: version control why, intro git(hub), zie https://www.youtube.com/watch?v=PhyUy7z4S-M
 
-10:30 Meedoen: Github repo samen maken
+10:45 Exercise: andere repo verkennen 
 
-10:45 meedoen: maak een file met een recept. Commit changes. Push. 
+11:00 Meedoen: Github repo samen maken
 
-11:00 5 minuten pauze
+11:10 Exercise: GitHub main workflow : maak een file met een recept. Commit changes. Push. 
+
+11:45 voordoen: hoe ziet dat er uit in Rstudio, hoe ziet dat er uit in python notebook
 
 
-11:10 Exercise: andere repo verkennen 
-
-
-11:25 Voordoen: demo GitHub projectomgeving.
-
-11:35 voordoen: hoe ziet dat er uit in Rstudio, hoe ziet dat er uit in python notebook
-
-11:50 Exercise: XXX
 
 
 12:00 lunchpauze
 
 
-13:00 git conflicts --> we laten iemand iets aanpassen, zetten zelf een commit klaar op dezelfde regel tekst, merge error --> wat nu.
+
+
+13:00 Voordoen: demo GitHub projectomgeving?
+
+Exercise: XXX
+
+
+git conflicts --> we laten iemand iets aanpassen, zetten zelf een commit klaar op dezelfde regel tekst, merge error --> wat nu.
 ook: if all fails, gewoon backuppen, opnieuw downloaden, copy-paste wat je aan wilde passen.
 
-13:20 privacy / security
+
+privacy / security
+
+
 
 
 
