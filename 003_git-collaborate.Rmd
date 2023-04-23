@@ -28,19 +28,45 @@ We like to live on the edge, so our reader repo is forkable and public.
  - Make a pull request to include your forked version in our reader 
  - We will merge your changes to our reader if we like them :)
 
+---
+
 ## B: Licenses
+
+Software licenses are legal agreements that determine how a software application can be used by individuals or organizations. 
 
 We think public repos should always have a license. You can find our [here.](https://github.com/VHP4Safety/github_intro_training/blob/main/LICENSE.txt)
 
-
-Having a license is not obligatory. Without a license, the default copyright laws apply: you own the thing and no one may reuse it. However, if you publish something in a **public** repository on github.com, other users of GitHub.com have the right to view and fork your repository. If you change your mind and make a repository private, excisting forks of the repo will not disappear.
+Having a license is however not obligatory. Without a license, the default copyright laws apply: you own the thing and no one may reuse it. However, if you publish something in a **public** repository on github.com, other users of GitHub.com have the right to view and fork your repository. **If you change your mind and make a repository private, excisting forks of the repo will not disappear from other user's github account.**
 
 If you're creating an open source project, we strongly encourage you to include an open source license. Data stewards will probably know more about this than we do, but if you need help choosing a license, see [this website](https://choosealicense.com/).
+
+
+### Types of software licences
+There are various types of licenses that software developers use to protect their intellectual property and control the distribution and usage of their software. Some of the common types of software licenses include:
+
+ - Proprietary License: a restrictive license that allows the software to be used only as per the terms and conditions specified by the software developer. Often used commercially.
+ - Open Source License: license that allows users to access, use, modify, and distribute the software freely. The key characteristic of open source software is that the source code, or the human-readable version of the software, is available for anyone to view and modify. 
+ - Freeware: license that allows users to download, install, and use the software for free without any monetary cost. 
+ - Shareware: license that allows users to try the software for free for a limited period, typically 30 days, before requiring them to purchase a license to continue using the software. 
+ - Subscription License: grants  access to the software for a specified period in exchange for a recurring fee. 
+ 
+### Creative Commons Flavours
+Creative Commons (CC) licenses are a type of open source license that provide a standardized and flexible way for content creators to share their work with others while retaining certain rights. There are several flavors of Creative Commons licenses, each with its own set of permissions and restrictions.
+
+The most permissive CC license is the **CC0 (CC Zero) license**, which allows content to be used, modified, and distributed without any restrictions. This means that the content can be used for any purpose, including commercial use, without requiring attribution to the original creator.
+
+CC licensing is usually a combination of one or more of the following the following:
+
+ - The **Attribution (BY)** license requires that the original creator be credited when the content is used, modified, or distributed. 
+ - The **ShareAlike (SA)** license requires that any modifications or derivatives of the content be shared under the same license. This means that if someone modifies the content, they must also release their modifications under the same Creative Commons license. 
+ - The **NonCommercial (NC)** license. This means that the content can be used, modified, and distributed for non-commercial purposes only, such as for personal or educational use, but not for commercial gain.
+ - The **NoDerivatives (ND)** license prohibits any modifications or derivatives of the content. This means that the content must be used and distributed without any modifications.
 
 ### Exercise: add a license to your repo 
 
 Please go over this [Github documentation](https://docs.github.com/en/communities/setting-up-your-project-for-healthy-contributions/adding-a-license-to-a-repository) to add a license to your Hello_world repo even though it is set to private, as a practice. 
 
+---
 
 ## C: security
 
@@ -56,7 +82,7 @@ First of all, there is security of github itself. Anyone using github in a data 
 
 GitHub tokens are access credentials that serve as a secure way to authenticate and interact with the GitHub API. The purpose of GitHub tokens is to provide users with way to programmatically access and manipulate GitHub repositories without exposing your password. 
 
-Find how to do use github tokens with Rstudio [here](#tokens)
+For future reference, you can find how to do use github tokens with Rstudio [here](#tokens)
 
 
 ### Using passwords when coding
@@ -127,7 +153,7 @@ Suppose a researcher comes to you stressed: they included a password to their NC
      - this would be a good moment to contact github support
      - if your repo is not forked by anyone, and you don't care about losng all your issues, you can just delete the repo. 
 
-### Exercise: prepare what to tell people {.blauw}
+### Exercise: prepare what to tell people 
 
  1. In groups of 2: discuss the potential security risks associated with storing keys in code when using GitHub as a version control system. Discuss the risks of accidental exposure or unauthorized access specifically for your organisation, and how to communicate the importance of protecting sensitive information in code repositories in your function.
 
