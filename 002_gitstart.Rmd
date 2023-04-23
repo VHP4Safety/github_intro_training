@@ -4,7 +4,7 @@
 knitr::opts_chunk$set(echo = F, class.source="Rchunk", class.output="Rout")
 ```
 
-## A version control
+## A version control and Git
 We will start with a short presentation on version control systems and git.
 
 
@@ -46,13 +46,55 @@ Terminology:
 
 ### Exercise: Setting up a github repo {.oranje}
 
-Marc will do this live during the workshop and you will -hopefully- click along. In case you forget the procedure, [see this link.](https://docs.github.com/en/get-started/quickstart/create-a-repo)
+We will do this live during the workshop and you will -hopefully- click along. In case you forget the procedure, [see this link.](https://docs.github.com/en/get-started/quickstart/create-a-repo)
 
 
 ## C: Github main workflow
 
-### EXERCISE: main workflow (10 min) {.blauw}
-Complete the [hello world](https://docs.github.com/en/get-started/quickstart/hello-world) exercise on Github
+### Exercise: main workflow (10 min) {.blauw}
+
+If you don't have your own github repo yet, make one now. 
+   - In the "Repository name" box, type hello-world. 
+   - Set it to private, 
+   - include a .gitignore file (take any template, we use the R one). 
+   - Select Add a README file.
+   - click "create repository"
+
+**1. create a branch to work in. **
+
+ - On the top left of your repo, click on `main`. It is a dropdown menu.
+ 
+![](./images/clickmain.png){ width=70%}
+
+ - In the field `Find or create a branch...` Type a branch name, `recipe_dev`
+ - Click Create branch: recipe_dev from main.
+
+![](./images/recipe_dev.png){ width=70%}
+
+You now have 2 branches in your repo: the `main` branch which always contains the latest stable version of a project, and the `recipe_dev` branch, that we will use to add a recipe to the repo.
+
+**2. make a change. in this case: add a file.**
+
+ - add a file to your repo called "recipe.txt", containing your favorite recipe for chocolate milk. You can either create this file on github, or create it on your laptop and upload it:
+ 
+![](./images/create_file2.png){ width=100%}
+
+![](./images/recept.png){ width=100%}
+
+ - click `commit new file` : 
+
+![](./images/commitrecipe.png){ width=100%}
+
+Now your two branches are different. 
+
+ - Click on the drop down menu again to switch between branches and explore the difference.
+ 
+![](./images/lookatmain.png){ width=100%}
+
+**3. Open a pull request**
+
+
+See also the Github Docs, a great source of [Github tutorials](https://docs.github.com/en/get-started/quickstart/github-flow).
 
 *Note: actually, creating a branch is not necessary, you could directly edit the main branch. But it is not good practice when collaborating.*
 
@@ -73,26 +115,26 @@ Here is a nice [list of .gitignore templates.](https://github.com/github/gitigno
 
 We will demo what a distributed git/github workflow would look like from an R user perspective. If you are in fact an R user, <mark>you can find a tutorial here. </mark>
 
-### Distributed workflow for future reference
+#### Distributed workflow for future reference
 In short, the core of a github workflow consists of :
 
-#### Give each project its own Git repository
+##### Give each project its own Git repository
 
 A **Git repository** is a folder in which the version control takes place. That means that all the changes of files that are located in that folder (and its subfolders) are tracked. It is best practice to initiate the Git repository on GitHub and then download it to your computer, so there is a working version of your project in the cloud at any point. Github then acts as a backup system as well.
 
 Just as you can have multiple folders on your computer, you can also have multiple Git repositories on your computer (and on GitHub). It is recommended to create a separate Git repository for each project you are doing. 
 
-#### Commit: Saving a new version of your files 
+##### Commit: Saving a new version of your files 
 
 Git does not automatically track the file changes. If you do not tell Git to save the version history, it will not do anything! Saving a new version of your files in the Git repository's file history is called a **commit**. It is recommended to regularly commit your changes, preferably several times a day, as these commits also form the "tracked changes".
 
-#### Updating the GitHub repository (push)
+##### Updating the GitHub repository (push)
 
 When you commit your changes, the Git repository on your computer will be updated. However, the online copy of your Git repository on GitHub does not, unless you tell Git to do so. This is called **pushing** (you 'push' the changes from your computer to GitHub).
 
 It is recommended to push your commits at least once per day, to keep the copy of your Git repository on GitHub up to date.
 
-#### Updating your local Git repository based on changes in GitHub (pull)
+##### Updating your local Git repository based on changes in GitHub (pull)
 
 If you work together with other people, they may be changing the github repository as well. In this case, you want to update your Git repository on your computer based on the changes on GitHub. This update process is the reverse of pushing, hence it is called **pulling** (you 'pull' the changes from GitHub to your computer).
 

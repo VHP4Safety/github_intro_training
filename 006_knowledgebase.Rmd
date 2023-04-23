@@ -1,7 +1,7 @@
 # Knowledge base
 
 ```{r, include=FALSE}
-knitr::opts_chunk$set(echo = F, class.source="Rchunk", class.output="Rout")
+knitr::opts_chunk$set(echo = T, class.source="Rchunk", class.output="Rout")
 ```
 
 This part of the reader contains all sorts of information you may need later, or info we can refer to during the workshop. 
