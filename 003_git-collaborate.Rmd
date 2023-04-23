@@ -9,7 +9,7 @@ We will start with a demo on all the up-until-now-unused-tabs in github.com, wit
 
 ### Issues
 
-Github issues are the core for collaboration with people within and outside your code project. Issues can be used for external people to report a bug, a feature request or a question regarding functionality or implementation. People using for example your package can ask questions or report problems in the form of an issue. Below, an example is shown for the `{dplyr}` R-package, which has a huge user community.
+Issues can be used as a to do list for collaborators on a project. Additionally, for public projects, external people can report a bug, a feature request or a question regarding functionality or implementation. Below, an example is shown for the `{dplyr}` R-package, which has a huge user community.
 
 ```{r}
 knitr::include_graphics(
@@ -20,10 +20,7 @@ knitr::include_graphics(
 )
 ```
 
-Posting an issue when you encounter an error or bug helps developers create robuster code and is the core driving force for developing new features or resolving problems in open source software. Opening issues is an easy way to start contributing to the open source community.
-
 We have shown you before how to make issues if you find any mistakes in the reader you do not want to solve with a fork-->pull request routine. This serves as our todo-list. 
-
 
 ### Exercise: Looking at issues 
 
@@ -71,6 +68,23 @@ Alternatively, if you want to work on a repo without adding your work back into 
 ![*download here*](./images/clonedownload.png){ width=60%}
 
 You can also clone a repo to your laptop to work on it locally. This was covered in the demo before the lunch, and is necessary for working offline in a distributed way.
+
+### Demo: git conflicts
+
+Clearly, if you are working together with other persons, you may be trying to alter the same line of text in different ways, which can give rise to conflicts. 
+
+We will now create a conflict in the reader repo to show you how to solve one.
+
+If you really get caught in conflicts with github, usually you were working offline (With Rstudio for instance). Local versions of a repo can get changed on different computers and then get unmergable. We would like to recommend [this approch by xkcd](https://xkcd.com/1597/) : There are nifty ways to solve conflicts, but you can also just don't bother and use a fresh copy (this is for when you use the distributed local workflow):
+
+ - copy your local folder as a backup
+ - make a new branch from the main
+ - clone a new copy of the new branch to your computer
+ - add the changes that didn't want to merge 
+ - commit, push
+ - on github.com, pull the new branch into the main
+
+Obviously, this only works when your changes aren't a day's worth of work. So commit changes often.
 
 ## B: Licenses
 
