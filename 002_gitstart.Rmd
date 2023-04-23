@@ -67,7 +67,7 @@ We will:
 If you don't have your own github repo yet, make one now. 
 
    - In the "Repository name" box, type hello-world. 
-   - Set it to private, 
+   - Set it to private (the options are: public: everyone can see the repo / private: only you for a personal repo, or your organisation members for a repo in an organisation githu environment can see this repo.
    - include a .gitignore file (take any template, we use the R one). 
    - Select Add a README file.
    - click "create repository"
@@ -147,21 +147,16 @@ See also the Github Docs, a great source of [Github tutorials](https://docs.gith
 *Note: actually, creating a branch is not necessary, you could directly edit the main branch. But it is not good practice when collaborating.*
 
 
-### gitignore files: need to know
 
-.gitignore files (note the dot) are text files containing a list of files in a repo directory you do not want Git to keep version control on. They will not be uploaded to the github repitory.
-
- This needs to be done before asking git to follow a file (staged and commited). A file already added to the index of the repository (i.e. which files git will follow) will not be unfollowed based on the .gitignore. Unfollowing a file requires that you do some coding to remove it from the index:
- 
- `git rm --cached <filename>`
-
-Here is a nice [list of .gitignore templates.](https://github.com/github/gitignore)
-
-.gitignore files make most sense when working distributedly (if that is a word).
-
-### Demo: distributed workflow
+### Code along: distributed workflow {.oranje}
 
 We will demo what a distributed git/github workflow would look like from an R user perspective. If you are in fact an R user, <mark>you can find a tutorial here. </mark>
+
+Try to code along with the example, even if you do not regularly use programming languages.
+
+###  {.unlisted .unnumbered}
+
+---
 
 #### Distributed workflow for future reference
 In short, the core of a github workflow consists of :
@@ -186,6 +181,23 @@ It is recommended to push your commits at least once per day, to keep the copy o
 
 If you work together with other people, they may be changing the github repository as well. In this case, you want to update your Git repository on your computer based on the changes on GitHub. This update process is the reverse of pushing, hence it is called **pulling** (you 'pull' the changes from GitHub to your computer).
 
+---
+
+## gitignore files
+
+.gitignore files (note the dot) are text files containing a list of files in a repo directory you do not want Git to keep version control on. They will not be uploaded to the github repitory.
+
+.gitignore files make most sense when working distributedly (if that is a word).
+
+Adding files to a .gitignore file needs to be done before asking git to follow a file (stage and commit). A file already added to the index of the repository (i.e. which files git will follow) will not be unfollowed based on the .gitignore. If someone added a file to the .gitignore, but git is still tracking it, this is the problem. 
+
+Unfollowing a file requires that you do some coding to remove it from the index. For instance in the terminal in Rstudio:
+ 
+ `git rm --cached filename`
+
+Here is a nice [list of .gitignore templates.](https://github.com/github/gitignore)
+
+---
 
 ## Github and data 
 
@@ -208,6 +220,7 @@ Larger datasets will also exceed the storage limits, which can impact performanc
 
 Also, GitHub is a public platform, and while repositories can be private and are secure, most organisations have rules and dedicated data storage solutions in place on where to store data, particularly for sensitive or confidential data.
 
+---
 
 ## Thinking in projects
 
