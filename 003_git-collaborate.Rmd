@@ -30,6 +30,14 @@ We like to live on the edge, so our reader repo is forkable and public.
 
 ---
 
+### cloning or downloading
+
+Alternatively, if you want to work on a repo without adding your work back into the original, you can just download a .zip file with all the files (probably the way to go for a reprohack):
+
+![*download here*](./images/clonedownload.png){ width=60%}
+
+You can also clone a repo to your laptop to work on it locally. This was covered in the demo before the lunch, and is necessary for working offline in a distributed way.
+
 ## B: Licenses
 
 Software licenses are legal agreements that determine how a software application can be used by individuals or organizations. 
