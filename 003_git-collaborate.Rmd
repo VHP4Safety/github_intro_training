@@ -207,7 +207,7 @@ Suppose a researcher comes to you stressed: they included a password to their NC
      - learn how to use a [password manager](https://www.g2.com/categories/password-manager/free)
    - leaked info was not a password, but some secret file?
      - this would be a good moment to contact github support
-     - if your repo is not forked by anyone, and you don't care about losng all your issues, you can just delete the repo. 
+     - if your repo is not forked by anyone, and you don't care about losing all your issues, you can just delete the repo. 
 
 ### Exercise: prepare what to tell people 
 
