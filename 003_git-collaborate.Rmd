@@ -94,7 +94,7 @@ We think public repos should always have a license. You can find our [here.](htt
 
 Having a license is however not obligatory. Without a license, the default copyright laws apply: you own the thing and no one may reuse it. However, if you publish something in a **public** repository on github.com, other users of GitHub.com have the right to view and fork your repository. **If you change your mind and make a repository private, excisting forks of the repo will not disappear from other user's github account.**
 
-If you're creating an open source project, we strongly encourage you to include an open source license. Data stewards will probably know more about this than we do, but if you need help choosing a license, see [this website](https://choosealicense.com/).
+If you're creating an open source project, we strongly encourage you to include an open source license. Data stewards will probably know more about this than we do, but if you need help choosing a license, see [this website](https://choosealicense.com/). (In case of the RIVM send an email to datastewards@rivm.nl)
 
 
 ### Types of software licences
