@@ -53,7 +53,7 @@ knitr::include_graphics('images/lesson22_2_downloadRepo.png')
 
 ### Step 2: Git personal access token
 
-Github uses personal access tokens. You will have to generate one on github, and tell Rstudio / git on your computer what is is.
+Github uses personal access tokens. You will have to generate one on github, and tell Rstudio / git on your computer what it is.
 
 Copy the following to the console:
 
