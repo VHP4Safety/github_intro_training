@@ -276,7 +276,7 @@ new_laptop/better_example_structure
 └── project C
 ```
 
-Now, `project A` and `project B` could easily be github repo's (although data itself is often not stored on github )
+Now, `project A` and `project B` could easily be github repos (although data itself is often not stored on github )
 
 The data workflow could then consist of:
 
