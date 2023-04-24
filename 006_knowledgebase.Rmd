@@ -39,6 +39,8 @@ Finally, the **NoDerivatives (ND)** license prohibits any modifications or deriv
 
 Creative Commons licenses provide a flexible and standardized framework for content creators to share their work with others while retaining certain rights. These licenses allow for a range of permissions and restrictions, from permissive licenses that allow for maximum freedom of use to more restrictive licenses that protect certain rights. Understanding the different flavors of Creative Commons licenses is important for both content creators and users to ensure compliance with the terms and conditions of the licenses and promote open source collaboration in the creative community.
 
+Be aware that Creative Commons [recomends against using these licenses for software](https://creativecommons.org/faq/#can-i-apply-a-creative-commons-license-to-software). See also their [FAQ](https://creativecommons.org/faq).
+
 ### adding a license from Rstudio with a package
 Add an appropriate licence to a new Github repo, according this workflow:
 
