@@ -14,11 +14,11 @@ We will start with a short presentation on version control systems and git.
 
 *(Thank you Coderefinery for this exercise, lisenced [CC BY 4.0.](https://creativecommons.org/licenses/by/4.0/))*
 
-On github, you can create and share repositories (folders), which contain the (analyses) code and related files for a project. Git will keep track of alle changes to these files. 
+On github, you can create and share repositories (folders), which contain the (analyses) code and related files for a project. Git will keep track of all changes to these files. 
 
 Before we create a new repository from scratch and learn how to record changes
 and create and merge branches, let us explore an **existing Git repository** on
-GitHub.  The goal here is not to teach GitHub yet (we will explain some of the
+GitHub. The goal here is not to teach GitHub yet (we will explain some of the
 concepts later), but rather to get a glimpse of the wider picture.
 
 As an example we can explore a famous Git repository which was used
